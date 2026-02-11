@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* This is where you set up your global styles to match your UI */
+@layer base {
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
+
+/* Custom components for your concept pages */
+@layer components {
+  .concept-card {
+    @apply p-6 bg-white border border-gray-100 rounded-xl shadow-sm hover:shadow-md transition-all;
+  }
+}
