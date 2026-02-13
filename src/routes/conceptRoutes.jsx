@@ -9,7 +9,7 @@ import HOC from '../components/pages/concepts/HOC';
 import BabelAndBuild from '../components/pages/concepts/BabelAndBuild';
 import RenderingProcess from '../components/pages/concepts/RenderingProcess';
 import KeyGuide from '../components/pages/concepts/Key';
-
+import LibraryVsFramework from '../components/pages/concepts/LibraryVsFramework';
 
 export const conceptRoutes = [
   { path: "/concepts/what-is-react", element: <WhatIsReact />, title: "What is React?" },
@@ -22,4 +22,5 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-Browser-Compatible", element: <BabelAndBuild />, title: "What is Browser-Compatible?" },
   { path: "/concepts/RenderingProcess", element: <RenderingProcess />, title: "How React Rendering Process Working?" },
   { path: "/concepts/what-is-Key", element: <KeyGuide />, title: "What is Key in react?" },
+  { path: "/concepts/what-is-LibraryandFramework", element: <LibraryVsFramework />, title: "What is the difference in Library and Framework?" },
 ];
