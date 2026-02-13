@@ -7,6 +7,7 @@ import ControllUnControll from '../components/pages/concepts/ControllUnControll'
 import EncryptionGuide from '../components/pages/concepts/Encryption';
 import HOC from '../components/pages/concepts/HOC';
 import BabelAndBuild from '../components/pages/concepts/BabelAndBuild';
+import RenderingProcess from '../components/pages/concepts/RenderingProcess';
 
 
 export const conceptRoutes = [
@@ -18,4 +19,5 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-Encryption", element: <EncryptionGuide />, title: "What is Encryption and Decryption?" },
   { path: "/concepts/what-is-HOC", element: <HOC />, title: "What is Higher Order Concept?" },
   { path: "/concepts/what-is-Browser-Compatible", element: <BabelAndBuild />, title: "What is Browser-Compatible?" },
+  { path: "/concepts/RenderingProcess", element: <RenderingProcess />, title: "How React Rendering Process Working?" },
 ];
