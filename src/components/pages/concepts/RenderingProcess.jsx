@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 const RenderingProcess = () => {
   const [count, setCount] = useState(0);
@@ -73,17 +73,17 @@ const RenderingProcess = () => {
           <div className="space-y-6">
             <div>
               <h3 className="text-green-400 font-bold">1. Mount Phase</h3>
-              <p className="text-xs"><code>useEffect(() => &#123;...&#125;, [])</code></p>
+              <p className="text-xs"><code>useEffect(() ={'>'} &#123;...&#125;, [])</code></p>
               <p className="text-xs text-slate-400 mt-1 italic">Runs once after the initial render.</p>
             </div>
             <div>
               <h3 className="text-blue-400 font-bold">2. Update Phase</h3>
-              <p className="text-xs"><code>useEffect(() => &#123;...&#125;, [count])</code></p>
+              <p className="text-xs"><code>useEffect(() ={'>'} &#123;...&#125;, [count])</code></p>
               <p className="text-xs text-slate-400 mt-1 italic">Runs every time 'count' changes.</p>
             </div>
             <div>
               <h3 className="text-red-400 font-bold">3. Unmount Phase</h3>
-              <p className="text-xs"><code>return () => &#123;...&#125;</code> (Cleanup)</p>
+              <p className="text-xs"><code>return () ={'>'} &#123;...&#125;</code> (Cleanup)</p>
               <p className="text-xs text-slate-400 mt-1 italic">Runs when the component is destroyed.</p>
             </div>
           </div>
