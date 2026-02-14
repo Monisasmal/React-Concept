@@ -12,6 +12,7 @@ import KeyGuide from '../components/pages/concepts/Key';
 import LibraryVsFramework from '../components/pages/concepts/LibraryVsFramework';
 import JsxVsHtml from '../components/pages/concepts/JsxVsHtml';
 import LiftingStateUp from '../components/pages/concepts/LiftingStateUp';
+import Optimization from '../components/pages/concepts/Optimization';
 
 
 export const conceptRoutes = [
@@ -28,4 +29,5 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-LibraryandFramework", element: <LibraryVsFramework />, title: "What is the difference in Library and Framework?" },
   { path: "/concepts/what-is-JsxVsHtml", element: <JsxVsHtml />, title: "What is JSX Vs HTML?" },
   { path: "/concepts/what-is-Lifting-StateUp", element: <LiftingStateUp />, title: "What is Lifting StateUp?" },
+  { path: "/concepts/what-is-Optimization", element: <Optimization />, title: "What is Optimization?" },
 ];
