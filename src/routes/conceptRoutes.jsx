@@ -13,6 +13,7 @@ import LibraryVsFramework from '../components/pages/concepts/LibraryVsFramework'
 import JsxVsHtml from '../components/pages/concepts/JsxVsHtml';
 import LiftingStateUp from '../components/pages/concepts/LiftingStateUp';
 import Optimization from '../components/pages/concepts/Optimization';
+import StateVsProps from '../components/pages/concepts/StateVsProps';
 
 
 export const conceptRoutes = [
@@ -30,4 +31,5 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-JsxVsHtml", element: <JsxVsHtml />, title: "What is JSX Vs HTML?" },
   { path: "/concepts/what-is-Lifting-StateUp", element: <LiftingStateUp />, title: "What is Lifting StateUp?" },
   { path: "/concepts/what-is-Optimization", element: <Optimization />, title: "What is Optimization?" },
+  { path: "/concepts/what-is-State-and-Props", element: <StateVsProps />, title: "what-is-State and Props?" },
 ];
