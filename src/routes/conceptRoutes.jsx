@@ -18,6 +18,7 @@ import PureComponent from '../components/pages/concepts/PureComponent';
 import ReactDOMAndEvents from '../components/pages/concepts/ReactDOMAndEvents';
 import ReactMemo from '../components/pages/concepts/ReactMemo';
 import MemoVsUseMemo from '../components/pages/concepts/MemoVsUseMemo';
+import ReactFiber from '../components/pages/concepts/ReactFiber';
 
 
 export const conceptRoutes = [
@@ -40,4 +41,5 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-ReactDOM-and-event", element: <ReactDOMAndEvents />, title: "What is React DOM and Event?" },
   { path: "/concepts/what-is-ReactMemo", element: <ReactMemo />, title: "What is the use of React Memo?" },
   { path: "/concepts/what-is-the-diff-MemoVsUseMemo", element: <MemoVsUseMemo />, title: "What is the diff between React Memo and useMemo?" },
+  { path: "/concepts/what-is-ReactFiber", element: <ReactFiber />, title: "What is the use of React Fiber?" },
 ];
