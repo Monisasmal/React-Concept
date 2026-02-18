@@ -21,6 +21,7 @@ import MemoVsUseMemo from '../components/pages/concepts/MemoVsUseMemo';
 import ReactFiber from '../components/pages/concepts/ReactFiber';
 import Transitions from '../components/pages/concepts/Transitions';
 import ReactRouterGuide from '../components/pages/concepts/ReactRouterGuide';
+import Reconciliation from '../components/pages/concepts/Reconciliation';
 
 
 export const conceptRoutes = [
@@ -46,4 +47,5 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-ReactFiber", element: <ReactFiber />, title: "What is the use of React Fiber?" },
   { path: "/concepts/what-is-useTransitions", element: <Transitions />, title: "What is the use of useTransitions?" },
   { path: "/concepts/what-is-ReactRouter", element: <ReactRouterGuide />, title: "What is  React Router?" },
+  { path: "/concepts/what-is-Reconcillation", element: <Reconciliation />, title: "What is Reconcillation?" },
 ];
