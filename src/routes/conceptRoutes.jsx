@@ -23,6 +23,7 @@ import Transitions from '../components/pages/concepts/Transitions';
 import ReactRouterGuide from '../components/pages/concepts/ReactRouterGuide';
 import Reconciliation from '../components/pages/concepts/Reconciliation';
 import SyntheticEvents from '../components/pages/concepts/SyntheticEvents';
+import WebpackGuide from '../components/pages/concepts/Webpack';
 
 
 export const conceptRoutes = [
@@ -50,4 +51,5 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-ReactRouter", element: <ReactRouterGuide />, title: "What is  React Router?" },
   { path: "/concepts/what-is-Reconcillation", element: <Reconciliation />, title: "What is Reconcillation?" },
   { path: "/concepts/what-is-SyntheticEvent", element: <SyntheticEvents />, title: "What is Synthetic Event in react?" },
+  { path: "/concepts/what-is-WebPack?", element: <WebpackGuide />, title: "What is Web Pack?" },
 ];
