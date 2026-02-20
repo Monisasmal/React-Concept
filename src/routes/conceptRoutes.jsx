@@ -31,6 +31,11 @@ import UseStateDetails from '../components/pages/concepts/hooks/useStateHook';
 
 
 export const conceptRoutes = [
+  { 
+    path: "/concepts/what-is-Hooks/hooks/usestate", 
+    element: <UseStateDetails />, 
+    hidden: true 
+  },
   { path: "/concepts/what-is-react", element: <WhatIsReact />, title: "What is React?" },
   { path: "/concepts/react-feature", element: <ReactFeature />, title: "Whar are React Features?" },
   { path: "/concepts/what-is-Component", element: <ComponentTypes />, title: "What is Component?" },
@@ -59,5 +64,5 @@ export const conceptRoutes = [
   { path: "/concepts/React Evolution?", element: <ReactEvolution />, title: "What is React Evolution?" },
   { path: "/concepts/what-is-Diffing-algorithum?", element: <DiffingAlgorithm />, title: "What is Diffing Algorithm?" },
   { path: "/concepts/what-is-Hooks?", element: <HooksOverview />, title: "What is Hook?" },
-  { path: "/concepts/what-is-Hooks/hooks/usestate?", element: <UseStateDetails /> },
+  
 ];
