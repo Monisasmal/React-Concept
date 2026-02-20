@@ -26,6 +26,7 @@ import SyntheticEvents from '../components/pages/concepts/SyntheticEvents';
 import WebpackGuide from '../components/pages/concepts/Webpack';
 import ReactEvolution from '../components/pages/concepts/ReactEvolution';
 import DiffingAlgorithm from '../components/pages/concepts/DiffingAlgorithum';
+import HooksOverview from '../components/pages/concepts/Hooks';
 
 
 export const conceptRoutes = [
@@ -54,6 +55,7 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-Reconcillation", element: <Reconciliation />, title: "What is Reconcillation?" },
   { path: "/concepts/what-is-SyntheticEvent", element: <SyntheticEvents />, title: "What is Synthetic Event in react?" },
   { path: "/concepts/what-is-WebPack?", element: <WebpackGuide />, title: "What is Web Pack?" },
-  { path: "/concepts/React Evolution?", element: <ReactEvolution />, title: "What is React Ecvolution?" },
-   { path: "/concepts/what-is-Diffing-algorithum?", element: <DiffingAlgorithm />, title: "What is Diffing Algorithm?" },
+  { path: "/concepts/React Evolution?", element: <ReactEvolution />, title: "What is React Evolution?" },
+  { path: "/concepts/what-is-Diffing-algorithum?", element: <DiffingAlgorithm />, title: "What is Diffing Algorithm?" },
+  { path: "/concepts/what-is-Hooks?", element: <HooksOverview />, title: "What is Hook?" },
 ];
