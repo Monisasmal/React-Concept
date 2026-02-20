@@ -27,6 +27,7 @@ import WebpackGuide from '../components/pages/concepts/Webpack';
 import ReactEvolution from '../components/pages/concepts/ReactEvolution';
 import DiffingAlgorithm from '../components/pages/concepts/DiffingAlgorithum';
 import HooksOverview from '../components/pages/concepts/Hooks';
+import UseStateDetails from '../components/pages/concepts/hooks/useStateHook';
 
 
 export const conceptRoutes = [
@@ -58,4 +59,5 @@ export const conceptRoutes = [
   { path: "/concepts/React Evolution?", element: <ReactEvolution />, title: "What is React Evolution?" },
   { path: "/concepts/what-is-Diffing-algorithum?", element: <DiffingAlgorithm />, title: "What is Diffing Algorithm?" },
   { path: "/concepts/what-is-Hooks?", element: <HooksOverview />, title: "What is Hook?" },
+  { path: "/concepts/what-is-Hooks/hooks/usestate?", element: <UseStateDetails /> },
 ];

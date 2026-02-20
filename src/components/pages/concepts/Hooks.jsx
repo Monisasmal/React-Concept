@@ -37,7 +37,7 @@ const HookHubDashboard = () => {
         {hookList.map((hook) => (
           <Link 
             key={hook.name} 
-            to={`/hooks/${hook.name.toLowerCase()}`}
+            to={`./hooks/${hook.name.toLowerCase()}`}
             className={`bg-white p-8 rounded-3xl shadow-lg border-l-8 ${hook.color} hover:scale-105 transition-all group`}
           >
             <h3 className="text-2xl font-black text-slate-900 mb-2 group-hover:text-indigo-600">
