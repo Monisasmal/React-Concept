@@ -138,9 +138,9 @@ const UseStateDetails = () => {
       
       {/* RELATED LINKS */}
       <div className="mt-12 flex justify-center gap-4">
-        <a href="#" className="text-indigo-600 font-bold hover:underline">Official Docs ↗</a>
+        <a href="https://use-state-hook-concept-manaswini-sasmals-projects.vercel.app/" className="text-indigo-600 font-bold hover:underline">Official Docs ↗</a>
         <span className="text-slate-300">|</span>
-        <a href="#" className="text-indigo-600 font-bold hover:underline">GitHub Example ↗</a>
+        <a href="https://github.com/Monisasmal/use-state-hook-concept" className="text-indigo-600 font-bold hover:underline">GitHub Example ↗</a>
       </div>
 
     </div>
