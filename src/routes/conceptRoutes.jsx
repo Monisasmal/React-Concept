@@ -30,6 +30,7 @@ import HooksOverview from '../components/pages/concepts/Hooks';
 import UseStateDetails from '../components/pages/concepts/hooks/useStateHook';
 import StrictModeGuide from '../components/pages/concepts/StrictMode';
 import ReactPortalGuide from '../components/pages/concepts/ReactPortal';
+import ErrorBoundary from '../components/pages/concepts/ErrorBoundary';
 
 
 
@@ -69,5 +70,6 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-Hooks?", element: <HooksOverview />, title: "What is Hook?" },
   { path: "/concepts/what-is-StrictMode?", element: <StrictModeGuide />, title: "What is StrictMode?" },
   { path: "/concepts/what-is-ReactPortal?", element: <ReactPortalGuide />, title: "What is React Portal?" },
+    { path: "/concepts/what-is-Error-Boundary?", element: <ErrorBoundary />, title: "What is Error Boundary?" },
   
 ];
