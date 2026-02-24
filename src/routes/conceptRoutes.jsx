@@ -32,6 +32,7 @@ import StrictModeGuide from '../components/pages/concepts/StrictMode';
 import ReactPortalGuide from '../components/pages/concepts/ReactPortal';
 import ErrorBoundary from '../components/pages/concepts/ErrorBoundary';
 import ReactFragmentGuide from '../components/pages/concepts/ReactFragmentGuide';
+import ReactSuspenseGuide from '../components/pages/concepts/ReactSuspenseGuide';
 
 
 
@@ -73,5 +74,5 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-ReactPortal?", element: <ReactPortalGuide />, title: "What is React Portal?" },
   { path: "/concepts/what-is-Error-Boundary?", element: <ErrorBoundary />, title: "What is Error Boundary?" },
   { path: "/concepts/what-is-React-Fragment?", element: <ReactFragmentGuide />, title: "What is React Fragment?" }
-  
+  { path: "/concepts/what-is-React-Suspense?", element: <ReactSuspenseGuide />, title: "What is React Suspense?" },
 ];
