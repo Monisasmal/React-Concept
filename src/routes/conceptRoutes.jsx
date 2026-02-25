@@ -73,6 +73,6 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-StrictMode?", element: <StrictModeGuide />, title: "What is StrictMode?" },
   { path: "/concepts/what-is-ReactPortal?", element: <ReactPortalGuide />, title: "What is React Portal?" },
   { path: "/concepts/what-is-Error-Boundary?", element: <ErrorBoundary />, title: "What is Error Boundary?" },
-  { path: "/concepts/what-is-React-Fragment?", element: <ReactFragmentGuide />, title: "What is React Fragment?" }
+  { path: "/concepts/what-is-React-Fragment?", element: <ReactFragmentGuide />, title: "What is React Fragment?" },
   { path: "/concepts/what-is-React-Suspense?", element: <ReactSuspenseGuide />, title: "What is React Suspense?" },
 ];
