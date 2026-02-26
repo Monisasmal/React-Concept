@@ -14,6 +14,12 @@ const Projects = () => {
       liveLink: "https://manaswini-portfolio.vercel.app/",
       githubLink: "https://github.com/Monisasmal/Manaswini_Portfolio",
     },
+    {
+      title: "Quiz App",
+      description: "A QR Code Generator app in React lets users input text or URLs and instantly creates a scannable QR code. It’s fast, responsive, and great for sharing information easily.",
+      liveLink: "https://qr-code-generator-react-manaswini-sasmals-projects.vercel.app/",
+      githubLink: "https://github.com/Monisasmal/ReactQuizApp",
+    },
   ];
 
   return (
