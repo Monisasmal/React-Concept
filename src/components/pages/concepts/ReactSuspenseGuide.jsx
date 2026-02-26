@@ -1,9 +1,19 @@
 import React, { useState, Suspense, lazy } from "react";
 
 const LazyComponent = lazy(() =>
-  new Promise((resolve) =>
-    setTimeout(() => resolve(SampleLazyComponent), 2000)
-  )
+  new Promise((resolve) => {
+    setTimeout(() => {
+      resolve({
+        default: () => (
+          <div>
+            <h3 className="text-lg font-bold text-emerald-600">
+              🎉 Lazy Component Loaded!
+            </h3>
+          </div>
+        ),
+      });
+    }, 2000);
+  })
 );
 
 const ReactSuspenseGuide = () => {
@@ -134,15 +144,5 @@ const ReactSuspenseGuide = () => {
   );
 };
 
-export default ReactSuspenseGuide;
-
-export const SampleLazyComponent = () => {
-  return (
-    <div>
-      <h3 className="text-lg font-bold text-emerald-600">
-        🎉 Lazy Component Loaded Successfully!
-      </h3>
-    </div>
-  );
-};
+export default ReactSuspenseGuide
 
