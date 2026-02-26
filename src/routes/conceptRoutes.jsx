@@ -34,6 +34,7 @@ import ErrorBoundary from '../components/pages/concepts/ErrorBoundary';
 import ReactFragmentGuide from '../components/pages/concepts/ReactFragmentGuide';
 import ReactSuspenseGuide from '../components/pages/concepts/ReactSuspenseGuide';
 import Hydration from '../components/pages/concepts/Hydration';
+import CodeSplitting from '../components/pages/concepts/CodeSplitting';
 
 
 
@@ -77,4 +78,5 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-React-Fragment?", element: <ReactFragmentGuide />, title: "What is React Fragment?" },
   { path: "/concepts/what-is-React-Suspense?", element: <ReactSuspenseGuide />, title: "What is React Suspense?" },
   { path: "/concepts/what-is-Hydration?", element: <Hydration />, title: "What is React Hydration?" },
+  { path: "/concepts/what-is-CodeSpliting?", element: <CodeSplitting />, title: "What is Code Splitting?" },
 ];
