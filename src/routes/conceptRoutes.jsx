@@ -37,6 +37,7 @@ import Hydration from '../components/pages/concepts/Hydration';
 import CodeSplitting from '../components/pages/concepts/CodeSplitting';
 import OneWayDataBindingGuide from '../components/pages/concepts/OneWayDataBinding';
 import JSXTransformation from '../components/pages/concepts/JSXTransformation';
+import AutomaticBatching from '../components/pages/concepts/AutomaticBatching';
 
 
 export const conceptRoutes = [
@@ -82,4 +83,5 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-CodeSpliting?", element: <CodeSplitting />, title: "What is Code Splitting?" },
   { path: "/concepts/what-is-One-way-data-binding?", element: <OneWayDataBindingGuide />, title: "What is one way data binding?" },
   { path: "/concepts/what-is-JSX-Transformation?", element: <JSXTransformation />, title: "What is JSX Transformation?" },
+   { path: "/concepts/what-is-Automatic-Batching?", element: <AutomaticBatching />, title: "What is Automatic Batching?" },
 ];
