@@ -36,7 +36,7 @@ import ReactSuspenseGuide from '../components/pages/concepts/ReactSuspenseGuide'
 import Hydration from '../components/pages/concepts/Hydration';
 import CodeSplitting from '../components/pages/concepts/CodeSplitting';
 import OneWayDataBindingGuide from '../components/pages/concepts/OneWayDataBinding';
-
+import JSXTransformation from '../components/pages/concepts/JSXTransformation';
 
 
 export const conceptRoutes = [
@@ -81,4 +81,5 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-Hydration?", element: <Hydration />, title: "What is React Hydration?" },
   { path: "/concepts/what-is-CodeSpliting?", element: <CodeSplitting />, title: "What is Code Splitting?" },
   { path: "/concepts/what-is-One-way-data-binding?", element: <OneWayDataBindingGuide />, title: "What is one way data binding?" },
+  { path: "/concepts/what-is-JSX-Transformation?", element: <JSXTransformation />, title: "What is JSX Transformation?" },
 ];
