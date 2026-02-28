@@ -27,10 +27,10 @@ const Projects = () => {
       githubLink: "https://github.com/Monisasmal/Grid-Light-React",
     },
     {
-      title: "Grid Light Game",
-      description: "A Grid Light Game app in React features a grid of lights that toggle on click. The goal is to turn off all lights, using logic and strategy to win.",
-      liveLink: "https://grid-light-react-manaswini-sasmals-projects.vercel.app/",
-      githubLink: "https://github.com/Monisasmal/Grid-Light-React",
+      title: "Markdown Editor",
+      description: "A simple and interactive **Markdown Editor Game built with React** where users write markdown in real-time and instantly see the rendered preview while completing fun formatting challenges.",
+      liveLink: "https://markdown-editor-manaswini-sasmals-projects.vercel.app/",
+      githubLink: "https://github.com/Monisasmal/Markdown_Editor",
     },
   ];
 
