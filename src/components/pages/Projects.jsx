@@ -20,6 +20,18 @@ const Projects = () => {
       liveLink: "https://qr-code-generator-react-manaswini-sasmals-projects.vercel.app/",
       githubLink: "https://github.com/Monisasmal/ReactQuizApp",
     },
+    {
+      title: "Grid Light Game",
+      description: "A Grid Light Game app in React features a grid of lights that toggle on click. The goal is to turn off all lights, using logic and strategy to win.",
+      liveLink: "https://grid-light-react-manaswini-sasmals-projects.vercel.app/",
+      githubLink: "https://github.com/Monisasmal/Grid-Light-React",
+    },
+    {
+      title: "Grid Light Game",
+      description: "A Grid Light Game app in React features a grid of lights that toggle on click. The goal is to turn off all lights, using logic and strategy to win.",
+      liveLink: "https://grid-light-react-manaswini-sasmals-projects.vercel.app/",
+      githubLink: "https://github.com/Monisasmal/Grid-Light-React",
+    },
   ];
 
   return (
