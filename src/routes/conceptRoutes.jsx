@@ -39,6 +39,7 @@ import OneWayDataBindingGuide from '../components/pages/concepts/OneWayDataBindi
 import JSXTransformation from '../components/pages/concepts/JSXTransformation';
 import AutomaticBatching from '../components/pages/concepts/AutomaticBatching';
 import TreeShakingGuide from '../components/pages/concepts/TreeShaking';
+import Memoization from '../components/pages/concepts/Memoization';
 
 
 export const conceptRoutes = [
@@ -86,4 +87,5 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-JSX-Transformation?", element: <JSXTransformation />, title: "What is JSX Transformation?" },
   { path: "/concepts/what-is-Automatic-Batching?", element: <AutomaticBatching />, title: "What is Automatic Batching?" },
   { path: "/concepts/what-is-Tree-Shaking?", element: <TreeShakingGuide />, title: "What is Tree Shaking?" },
+  { path: "/concepts/what-is-Memoization?", element: <Memoization />, title: "What is Memoization?" },
 ];
