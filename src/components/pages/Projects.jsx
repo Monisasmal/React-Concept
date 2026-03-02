@@ -32,6 +32,12 @@ const Projects = () => {
       liveLink: "https://markdown-editor-manaswini-sasmals-projects.vercel.app/",
       githubLink: "https://github.com/Monisasmal/Markdown_Editor",
     },
+    {
+      title: "Infinite Image Scrooling",
+      description: "The Infinite Image Scrolling project continuously loads images as users scroll down, creating a seamless browsing experience. It’s perfect for galleries, social feeds, and content-heavy websites with dynamic loading.",
+      liveLink: "https://infinite-scrolling-react-js.vercel.app/",
+      githubLink: "https://github.com/Monisasmal/InfiniteScrollingReactJSc",
+    },
   ];
 
   return (
