@@ -41,6 +41,7 @@ import AutomaticBatching from '../components/pages/concepts/AutomaticBatching';
 import TreeShakingGuide from '../components/pages/concepts/TreeShaking';
 import Memoization from '../components/pages/concepts/Memoization';
 import PropDrilling from '../components/pages/concepts/PropDrilling';
+import CompositionGuide from '../components/pages/concepts/Composition';
 
 
 export const conceptRoutes = [
@@ -90,4 +91,5 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-Tree-Shaking?", element: <TreeShakingGuide />, title: "What is Tree Shaking?" },
   { path: "/concepts/what-is-Memoization?", element: <Memoization />, title: "What is Memoization?" },
   { path: "/concepts/what-is-Prop-Drilling?", element: <PropDrilling />, title: "What is Prop Drilling?" },
+  { path: "/concepts/what-is-Composition?", element: <CompositionGuide />, title: "What is Composition?" },
 ];
