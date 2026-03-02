@@ -38,6 +38,12 @@ const Projects = () => {
       liveLink: "https://infinite-scrolling-react-js.vercel.app/",
       githubLink: "https://github.com/Monisasmal/InfiniteScrollingReactJSc",
     },
+    {
+      title: "Quiz App",
+      description: "A clean, interactive, and beginner-friendly quiz application built using React. Designed to provide a smooth quiz experience with instant feedback and score tracking.",
+      liveLink: "https://monisasmal.github.io/ReactQuizApp/",
+      githubLink: "https://github.com/Monisasmal/ReactQuizApp",
+    },
   ];
 
   return (
