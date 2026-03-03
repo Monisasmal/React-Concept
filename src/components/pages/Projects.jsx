@@ -44,6 +44,18 @@ const Projects = () => {
       liveLink: "https://monisasmal.github.io/ReactQuizApp/",
       githubLink: "https://github.com/Monisasmal/ReactQuizApp",
     },
+    {
+      title: "Fitness App",
+      description: "A responsive fitness club website built using ReactJS. This project showcases a modern landing page for a gym or fitness center with sections like services, trainers, and contact info.",
+      liveLink: "https://fitness-club-raect-manaswini-sasmals-projects.vercel.app/",
+      githubLink: "https://github.com/Monisasmal/Fitness-Club-Raect",
+    },
+    {
+      title: "Education Planner",
+      description: "A simple and effective Education Planner to organize your study schedule. This app allows you to add subjects, allocate study hours, and adjust the hours dynamically with an intuitive UI.",
+      liveLink: "https://study-planner-react.vercel.app/",
+      githubLink: "https://github.com/Monisasmal/StudyPlannerReact",
+    },
   ];
 
   return (
