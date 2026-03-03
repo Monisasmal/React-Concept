@@ -106,7 +106,7 @@ const JsxVsHtml = () => {
       </div>
 
       {/* 5. SYNTAX DIFFERENCE TABLE */}
-      <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border border-slate-200">
+      <div className="bg-white rounded-3xl shadow-2xl overflow-x-auto border border-slate-200">
         <div className="bg-slate-800 p-4 text-center">
           <h3 className="text-white font-bold uppercase tracking-widest">Syntax: HTML vs JSX</h3>
         </div>
