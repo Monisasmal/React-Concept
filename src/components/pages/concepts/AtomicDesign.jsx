@@ -1,48 +1,36 @@
-import React, { useState } from "react";
+import React from "react";
 
-/* --- Presentational Component --- */
-const CounterUI = ({ count, onIncrement }) => {
-  return (
-    <div className="p-6 bg-white rounded-2xl shadow-lg border text-center">
-      <h3 className="text-xl font-bold mb-4">Presentational Component</h3>
-      <p className="text-lg mb-4">Count: {count}</p>
-      <button
-        onClick={onIncrement}
-        className="px-6 py-2 bg-indigo-600 text-white rounded-full font-bold"
-      >
-        Increment
-      </button>
-    </div>
-  );
-};
+/* --- Small UI pieces --- */
+const Button = () => (
+  <button className="px-4 py-2 bg-indigo-600 text-white rounded-full font-bold">
+    Click Me
+  </button>
+);
 
-/* --- Container Component --- */
-const CounterContainer = () => {
-  const [count, setCount] = useState(0);
+const Input = () => (
+  <input
+    type="text"
+    placeholder="Enter text"
+    className="border p-2 rounded-lg"
+  />
+);
 
-  return (
-    <div className="p-6 bg-emerald-50 rounded-2xl">
-      <h3 className="text-xl font-bold mb-4 text-center">
-        Container Component
-      </h3>
-      <CounterUI
-        count={count}
-        onIncrement={() => setCount(count + 1)}
-      />
-    </div>
-  );
-};
+/* --- Combined Component --- */
+const Form = () => (
+  <div className="flex gap-4">
+    <Input />
+    <Button />
+  </div>
+);
 
-const ReactContainerPresentationalGuide = () => {
+const ReactAtomicDesignGuide = () => {
   return (
     <div className="max-w-6xl mx-auto p-6 pt-32 pb-20 bg-slate-50 min-h-screen font-sans">
 
       {/* --- 1. TITLE + DEFINITION --- */}
       <div className="text-center mb-16">
         <h1 className="text-3xl font-black text-slate-900 mb-4">
-          What is <span className="text-indigo-600">
-            Container vs Presentational?
-          </span>
+          What is <span className="text-indigo-600">Atomic Design?</span>
         </h1>
 
         <div className="h-2 w-24 bg-indigo-600 mx-auto rounded-full mb-6"></div>
@@ -53,11 +41,9 @@ const ReactContainerPresentationalGuide = () => {
           </h2>
 
           <p className="text-lg text-slate-700 leading-relaxed">
-            This is a design pattern where logic and state management
-            are separated from UI rendering.
-            <br /><br />
-            <strong>Container Component:</strong> Handles logic and state.<br />
-            <strong>Presentational Component:</strong> Handles UI and display.
+            Atomic Design is a methodology for building UI components
+            by breaking them into smaller reusable pieces called
+            Atoms, Molecules, Organisms, Templates, and Pages.
           </p>
         </div>
       </div>
@@ -71,10 +57,10 @@ const ReactContainerPresentationalGuide = () => {
           </h3>
 
           <ul className="text-sm space-y-2">
-            <li>✔ Improves code readability</li>
-            <li>✔ Easier to test UI separately</li>
-            <li>✔ Promotes reusable components</li>
-            <li>✔ Clean architecture</li>
+            <li>✔ Promotes reusable UI components</li>
+            <li>✔ Improves scalability</li>
+            <li>✔ Makes design consistent</li>
+            <li>✔ Organized folder structure</li>
           </ul>
         </div>
 
@@ -84,10 +70,10 @@ const ReactContainerPresentationalGuide = () => {
           </h3>
 
           <ul className="text-xs space-y-2">
-            <li>1. Container holds state</li>
-            <li>2. Container passes props</li>
-            <li>3. Presentational renders UI</li>
-            <li>4. UI triggers container logic</li>
+            <li>1. Atom → Smallest UI element (Button, Input)</li>
+            <li>2. Molecule → Combination of atoms</li>
+            <li>3. Organism → Complex UI section</li>
+            <li>4. Template & Page → Complete layout</li>
           </ul>
         </div>
 
@@ -101,12 +87,12 @@ const ReactContainerPresentationalGuide = () => {
         </div>
 
         <h2 className="text-3xl font-black mb-8 text-rose-400 italic underline">
-          🛑 If Not Separated?
+          🛑 If Not Structured?
         </h2>
 
         <p className="text-slate-300 text-lg leading-relaxed border-l-4 border-rose-500 pl-6">
-          Mixing UI and logic makes components large,
-          difficult to maintain, and hard to reuse.
+          Without structured design, components become messy,
+          inconsistent, and hard to scale in large applications.
         </p>
 
       </div>
@@ -115,15 +101,26 @@ const ReactContainerPresentationalGuide = () => {
       <div className="bg-white p-10 rounded-[3rem] shadow-2xl border-4 border-indigo-100 mb-12">
 
         <h2 className="text-3xl font-black text-center underline mb-8">
-          Live Example
+          Atomic Example
         </h2>
 
+        <div className="bg-slate-50 p-8 rounded-3xl border-2 border-dashed text-sm font-mono">
+{`// Atom
+<Button />
+
+// Molecule
+<Form />
+
+// Organism
+Header, Footer, Navbar`}
+        </div>
+
         <div className="mt-6 text-center text-slate-700">
-          <CounterContainer />
+          <Form />
         </div>
 
         <p className="text-center mt-6 text-sm text-slate-600">
-          Container manages state. Presentational displays UI.
+          Input + Button (Atoms) combine to form a Molecule.
         </p>
 
       </div>
@@ -137,11 +134,11 @@ const ReactContainerPresentationalGuide = () => {
 
         <div className="grid md:grid-cols-2 gap-8 text-slate-300">
           <p>
-            <strong>Container:</strong> Restaurant Kitchen (prepares food)
+            <strong>Atoms:</strong> LEGO blocks
           </p>
 
           <p>
-            <strong>Presentational:</strong> Waiter (serves food nicely)
+            <strong>Atomic Design:</strong> Building a LEGO house step by step
           </p>
         </div>
 
@@ -151,4 +148,4 @@ const ReactContainerPresentationalGuide = () => {
   );
 };
 
-export default ReactContainerPresentationalGuide;
+export default ReactAtomicDesignGuide;

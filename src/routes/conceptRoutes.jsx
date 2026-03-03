@@ -43,6 +43,7 @@ import Memoization from '../components/pages/concepts/Memoization';
 import PropDrilling from '../components/pages/concepts/PropDrilling';
 import CompositionGuide from '../components/pages/concepts/Composition';
 import ContainerPresentationalGuide from '../components/pages/concepts/ContainerVsPresentational';
+import AtomicDesign from '../components/pages/concepts/AtomicDesign';
 
 
 export const conceptRoutes = [
@@ -94,4 +95,5 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-Prop-Drilling?", element: <PropDrilling />, title: "What is Prop Drilling?" },
   { path: "/concepts/what-is-Composition?", element: <CompositionGuide />, title: "What is Composition?" },
   { path: "/concepts/Difference between Container Vs Presentational?", element: <ContainerPresentationalGuide />, title: "What Difference between Container Vs Presentational?" },
+  { path: "/concepts/what-is-Atomic-Design?", element: <AtomicDesign />, title: "What is Automic Design?" },
 ];
