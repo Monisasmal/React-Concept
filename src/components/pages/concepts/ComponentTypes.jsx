@@ -18,7 +18,7 @@ const ComponentTypes = () => {
           <h2 className="text-3xl font-bold text-slate-900">1. Functional Components</h2>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-2 gap-8 overflow-x-auto">
           <div className="space-y-6">
             <div className="bg-white p-6 rounded-xl border border-slate-200 shadow-sm">
               <h3 className="text-lg font-bold text-blue-600 mb-3 underline">The Definition</h3>
@@ -50,7 +50,7 @@ const ComponentTypes = () => {
               <span className="text-slate-400 text-xs font-mono">Example.jsx</span>
               <span className="text-blue-400 text-xs font-mono">Arrow Function</span>
             </div>
-            <pre className="text-sm font-mono leading-relaxed">
+            <pre className="text-sm font-mono leading-relaxed overflow-x-auto">
               <code className="text-blue-300">
 {`const Welcome = (props) => {
   return (
@@ -75,10 +75,10 @@ export default Welcome;`}
           <h2 className="text-3xl font-bold text-slate-900">2. Class Components</h2>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-2 gap-8 overflow-x-auto">
           <div className="space-y-6 order-2 lg:order-1">
             <div className="bg-slate-900 rounded-xl p-6 shadow-2xl">
-              <pre className="text-sm font-mono leading-relaxed">
+              <pre className="text-sm font-mono leading-relaxed ">
                 <code className="text-pink-400">
 {`class Welcome extends React.Component {
   render() {
