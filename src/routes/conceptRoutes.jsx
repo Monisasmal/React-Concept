@@ -44,6 +44,7 @@ import PropDrilling from '../components/pages/concepts/PropDrilling';
 import CompositionGuide from '../components/pages/concepts/Composition';
 import ContainerPresentationalGuide from '../components/pages/concepts/ContainerVsPresentational';
 import AtomicDesign from '../components/pages/concepts/AtomicDesign';
+import Streaming from '../components/pages/concepts/Streaming';
 
 
 export const conceptRoutes = [
@@ -96,4 +97,5 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-Composition?", element: <CompositionGuide />, title: "What is Composition?" },
   { path: "/concepts/Difference between Container Vs Presentational?", element: <ContainerPresentationalGuide />, title: "What Difference between Container Vs Presentational?" },
   { path: "/concepts/what-is-Atomic-Design?", element: <AtomicDesign />, title: "What is Automic Design?" },
+  { path: "/concepts/what-is-Streaming?", element: <Streaming />, title: "What is Streaming?" },
 ];
