@@ -45,6 +45,7 @@ import CompositionGuide from '../components/pages/concepts/Composition';
 import ContainerPresentationalGuide from '../components/pages/concepts/ContainerVsPresentational';
 import AtomicDesign from '../components/pages/concepts/AtomicDesign';
 import Streaming from '../components/pages/concepts/Streaming';
+import ProgressiveHydration from '../components/pages/concepts/ProgressiveHydration';
 
 
 export const conceptRoutes = [
@@ -98,4 +99,5 @@ export const conceptRoutes = [
   { path: "/concepts/Difference between Container Vs Presentational?", element: <ContainerPresentationalGuide />, title: "What Difference between Container Vs Presentational?" },
   { path: "/concepts/what-is-Atomic-Design?", element: <AtomicDesign />, title: "What is Automic Design?" },
   { path: "/concepts/what-is-Streaming?", element: <Streaming />, title: "What is Streaming?" },
+  { path: "/concepts/what-is-Progressive-Hydration?", element: <ProgressiveHydration />, title: "What is Progressive Hydration?" },
 ];
