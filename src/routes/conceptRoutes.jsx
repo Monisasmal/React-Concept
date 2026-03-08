@@ -46,6 +46,7 @@ import ContainerPresentationalGuide from '../components/pages/concepts/Container
 import AtomicDesign from '../components/pages/concepts/AtomicDesign';
 import Streaming from '../components/pages/concepts/Streaming';
 import ProgressiveHydration from '../components/pages/concepts/ProgressiveHydration';
+import ProductionBuild from '../components/pages/concepts/ProductionBuild';
 
 
 export const conceptRoutes = [
@@ -100,4 +101,5 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-Atomic-Design?", element: <AtomicDesign />, title: "What is Automic Design?" },
   { path: "/concepts/what-is-Streaming?", element: <Streaming />, title: "What is Streaming?" },
   { path: "/concepts/what-is-Progressive-Hydration?", element: <ProgressiveHydration />, title: "What is Progressive Hydration?" },
+  { path: "/concepts/what-is-Production-build?", element: <ProductionBuild />, title: "What is Production Build?" },
 ];
