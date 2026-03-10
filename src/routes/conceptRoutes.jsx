@@ -49,6 +49,7 @@ import ProgressiveHydration from '../components/pages/concepts/ProgressiveHydrat
 import ProductionBuild from '../components/pages/concepts/ProductionBuild';
 import EnvironmentVariable from '../components/pages/concepts/EnvironmentVariable';
 import BundleOptimization from '../components/pages/concepts/BundleOptimization';
+import PackageJsonGuide from '../components/pages/concepts/Packagejson';
 
 
 export const conceptRoutes = [
@@ -106,4 +107,5 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-Production-build?", element: <ProductionBuild />, title: "What is Production Build?" },
   { path: "/concepts/what-is-Environment Variable?", element: <EnvironmentVariable />, title: "What is Environment Variable?" },
   { path: "/concepts/what-is-Bundle Optimization?", element: <BundleOptimization />, title: "What is Bundle Optimization?" },
+  { path: "/concepts/what-is-Package.json?", element: <PackageJsonGuide />, title: "What is the uses of package.json?" },
 ];

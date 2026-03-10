@@ -78,7 +78,7 @@ const ReactBundleOptimizationGuide = () => {
             🧠 How does it work?
           </h3>
 
-          <ul className="text-xs space-y-2">
+          <ul className="text-sm space-y-2">
             <li>1. Remove unused code</li>
             <li>2. Split large bundles</li>
             <li>3. Lazy load components</li>
