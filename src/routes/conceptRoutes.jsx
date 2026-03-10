@@ -48,6 +48,7 @@ import Streaming from '../components/pages/concepts/Streaming';
 import ProgressiveHydration from '../components/pages/concepts/ProgressiveHydration';
 import ProductionBuild from '../components/pages/concepts/ProductionBuild';
 import EnvironmentVariable from '../components/pages/concepts/EnvironmentVariable';
+import BundleOptimization from '../components/pages/concepts/BundleOptimization';
 
 
 export const conceptRoutes = [
@@ -104,4 +105,5 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-Progressive-Hydration?", element: <ProgressiveHydration />, title: "What is Progressive Hydration?" },
   { path: "/concepts/what-is-Production-build?", element: <ProductionBuild />, title: "What is Production Build?" },
   { path: "/concepts/what-is-Environment Variable?", element: <EnvironmentVariable />, title: "What is Environment Variable?" },
+  { path: "/concepts/what-is-Bundle Optimization?", element: <BundleOptimization />, title: "What is Bundle Optimization?" },
 ];
