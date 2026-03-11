@@ -52,6 +52,8 @@ import BundleOptimization from '../components/pages/concepts/BundleOptimization'
 import PackageJsonGuide from '../components/pages/concepts/Packagejson';
 import Minification from '../components/pages/concepts/Minification';
 import SourceMap from '../components/pages/concepts/SourceMap';
+import PackageLock from '../components/pages/concepts/package-lock-json';
+import VercelGuide from '../components/pages/concepts/verceljson';
 
 
 export const conceptRoutes = [
@@ -112,4 +114,7 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-Package.json?", element: <PackageJsonGuide />, title: "What is the uses of package.json?" },
   { path: "/concepts/what-is-Minification?", element: <Minification />, title: "What is Minification?" },
   { path: "/concepts/what-is-Source-Map?", element: <SourceMap />, title: "What is Source Map?" },
+  { path: "/concepts/what-is-Package-lock-json?", element: <PackageLock />, title: "What is the uses of package-lock-json?" },
+  { path: "/concepts/what-is-Vercel-json?", element: <VercelGuide />, title: "What is use of Vercel.json package?" },
+
 ];
