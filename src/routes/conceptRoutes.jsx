@@ -50,6 +50,8 @@ import ProductionBuild from '../components/pages/concepts/ProductionBuild';
 import EnvironmentVariable from '../components/pages/concepts/EnvironmentVariable';
 import BundleOptimization from '../components/pages/concepts/BundleOptimization';
 import PackageJsonGuide from '../components/pages/concepts/Packagejson';
+import Minification from '../components/pages/concepts/Minification';
+import SourceMap from '../components/pages/concepts/SourceMap';
 
 
 export const conceptRoutes = [
@@ -108,4 +110,6 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-Environment Variable?", element: <EnvironmentVariable />, title: "What is Environment Variable?" },
   { path: "/concepts/what-is-Bundle Optimization?", element: <BundleOptimization />, title: "What is Bundle Optimization?" },
   { path: "/concepts/what-is-Package.json?", element: <PackageJsonGuide />, title: "What is the uses of package.json?" },
+  { path: "/concepts/what-is-Minification?", element: <Minification />, title: "What is Minification?" },
+  { path: "/concepts/what-is-Source-Map?", element: <SourceMap />, title: "What is Source Map?" },
 ];
