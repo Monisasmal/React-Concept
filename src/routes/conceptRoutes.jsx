@@ -54,6 +54,8 @@ import Minification from '../components/pages/concepts/Minification';
 import SourceMap from '../components/pages/concepts/SourceMap';
 import PackageLock from '../components/pages/concepts/package-lock-json';
 import VercelGuide from '../components/pages/concepts/verceljson';
+import ViteConfig from '../components/pages/concepts/viteconfigjs';
+import GitIgnore from '../components/pages/concepts/gitignore';
 
 
 export const conceptRoutes = [
@@ -116,5 +118,7 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-Source-Map?", element: <SourceMap />, title: "What is Source Map?" },
   { path: "/concepts/what-is-Package-lock-json?", element: <PackageLock />, title: "What is the uses of package-lock-json?" },
   { path: "/concepts/what-is-Vercel-json?", element: <VercelGuide />, title: "What is use of Vercel.json package?" },
+  { path: "/concepts/what-is-Vite-config-js?", element: <ViteConfig />, title: "What is Vite.Config.js?" },
+  { path: "/concepts/what-is-gitignore?", element: <GitIgnore />, title: "What is use of gitignore?" },
 
 ];
