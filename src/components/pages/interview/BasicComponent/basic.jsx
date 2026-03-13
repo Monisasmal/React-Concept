@@ -10,8 +10,8 @@ const questions = [
 },
 
 {
- title:"Toggle Button Component",
- path:"/interview/basic/toggle"
+ title:"Todo List CRUD",
+ path:"/interview/basic/TodoCURD"
 },
 
 {
