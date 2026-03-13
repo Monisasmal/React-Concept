@@ -1,34 +1,56 @@
 import { Link } from "react-router-dom";
 
 const InterviewPrep = () => {
-  const questions = [
-    {
-      title: "Counter using useState",
-      link: "/interview/counter",
-    },
-  ];
 
-  return (
-    <div className="max-w-6xl mx-auto pt-32 pb-20">
-      <h1 className="text-4xl font-bold text-center mb-12">
-        React Coding Interview Questions
-      </h1>
+return(
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 ml-5 mr-5">
-        {questions.map((q, i) => (
-          <Link
-            to={q.link}
-            key={i}
-            className="p-6 bg-white shadow-xl rounded-xl hover:shadow-2xl"
-          >
-            <h3 className="text-xl font-bold">{q.title}</h3>
+<div className="max-w-6xl mx-auto pt-32 pb-20 px-6">
 
-            <p className="text-gray-500 mt-2">Click to view solution</p>
-          </Link>
-        ))}
-      </div>
-    </div>
-  );
-};
+<h1 className="text-4xl font-bold text-center mb-16">
+React Interview Preparation
+</h1>
 
-export default InterviewPrep;
+<div className="space-y-8">
+
+{/* BASIC SECTION */}
+<div className="bg-white p-8 rounded-2xl shadow">
+
+<h2 className="text-2xl font-bold mb-4">
+Basic React Coding
+</h2>
+
+<Link
+to="/interview/basic"
+className="text-indigo-600 font-semibold"
+>
+View Questions →
+</Link>
+
+</div>
+
+{/* UI SECTION */}
+
+<div className="bg-white p-8 rounded-2xl shadow">
+
+<h2 className="text-2xl font-bold mb-4">
+React UI Components
+</h2>
+
+<Link
+to="/interview/ui"
+className="text-indigo-600 font-semibold"
+>
+View Questions →
+</Link>
+
+</div>
+
+</div>
+
+</div>
+
+)
+
+}
+
+export default InterviewPrep

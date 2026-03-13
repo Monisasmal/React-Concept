@@ -1,10 +1,18 @@
-import Counter from "../components/pages/interview/Counter"
+import BasicQuestions from "../components/pages/interview/BasicComponent/basic"
+import Counter from "../components/pages/interview/BasicComponent/Counter"
 
 const interviewRoutes = [
-  {
-    path:"/interview/counter",
-    element:<Counter/>
-  }
+
+{
+ path:"/interview/basic",
+ element:<BasicQuestions/>
+},
+
+{
+ path:"/interview/basic/counter",
+ element:<Counter/>
+}
+
 ]
 
 export default interviewRoutes
