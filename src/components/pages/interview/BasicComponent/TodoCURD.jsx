@@ -105,7 +105,7 @@ const ReactTodoCRUDGuide = () => {
             🧠 How does it work?
           </h3>
 
-          <ul className="text-xs space-y-2">
+          <ul className="text-sm space-y-2">
             <li>1. User enters a task</li>
             <li>2. Task is stored in state</li>
             <li>3. Tasks render in a list</li>
@@ -120,45 +120,94 @@ const ReactTodoCRUDGuide = () => {
 
       <div className="bg-slate-900 p-10 rounded-[3rem] text-green-400 mb-12 shadow-2xl overflow-x-auto">
 
-<pre>{`import React, { useState } from "react";
+<pre>
+{`import React, { useState } from "react";
 
 function TodoApp(){
 
  const [task,setTask] = useState("")
  const [todos,setTodos] = useState([])
+ const [editId,setEditId] = useState(null)
 
- const addTodo = () => {
-   if(task==="") return
-   setTodos([...todos,task])
-   setTask("")
+ // ADD OR UPDATE TASK
+ 
+  const addTodo = () => {
+
+    if(task.trim()==="") return
+
+    if(editId !== null){
+
+      const updated = todos.map((todo,index)=>
+        index === editId ? task : todo
+      )
+
+      setTodos(updated)
+      setEditId(null)
+
+    }else{
+
+      setTodos([...todos,task])
+
+    }
+
+    setTask("")
+  }
+
+  const editTodo = (index) => {
+
+    setTask(todos[index])
+    setEditId(index)
+
+  }
+
+
+ // DELETE TASK
+ const handleDeleteTodo = (index) => {
+
+  const filteredTodos = todos.filter((_,i)=> i !== index)
+  setTodos(filteredTodos)
+
  }
 
- const deleteTodo = (index)=>{
-   const updated = todos.filter((_,i)=>i!==index)
-   setTodos(updated)
- }
 
  return(
 
   <div>
 
+   <h2>Todo App</h2>
+
    <input
+    type="text"
+    placeholder="Enter task"
     value={task}
     onChange={(e)=>setTask(e.target.value)}
    />
 
-   <button onClick={addTodo}>
-    Add
+   <button onClick={handleAddTodo}>
+    {editId !== null ? "Update" : "Add"}
    </button>
 
-   {todos.map((todo,index)=>(
-     <div key={index}>
-       {todo}
-       <button onClick={()=>deleteTodo(index)}>
-        Delete
-       </button>
-     </div>
-   ))}
+   <ul>
+
+    {todos.map((todo,index)=>(
+
+     <li key={index}>
+
+      {todo}
+
+      <button onClick={()=>handleEditTodo(index)}>
+       Edit
+      </button>
+
+      <button onClick={()=>handleDeleteTodo(index)}>
+       Delete
+      </button>
+
+     </li>
+
+    ))}
+
+   </ul>
 
   </div>
 
@@ -166,7 +215,8 @@ function TodoApp(){
 
 }
 
-export default TodoApp`}</pre>
+export default TodoApp`}
+</pre>
 
       </div>
 
