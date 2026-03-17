@@ -4,21 +4,9 @@ const BasicQuestions = () => {
 
 const questions = [
 
-{
- title:"Build Counter using useState",
- path:"/interview/basic/counter"
-},
-
-{
- title:"Todo List CRUD",
- path:"/interview/basic/TodoCURD"
-},
-
-{
- title:"Show / Hide Password",
- path:"/interview/basic/password-toggle"
-}
-
+{title:"Build Counter using useState", path:"/interview/basic/counter"},
+{title:"Todo List CRUD", path:"/interview/basic/TodoCURD"},
+{title:"Conditional Rendering", path:"/interview/basic/ConditionalRendering"},
 ]
 
 return(
