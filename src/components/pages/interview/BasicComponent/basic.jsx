@@ -7,6 +7,7 @@ const questions = [
 {title:"Build Counter using useState", path:"/interview/basic/counter"},
 {title:"Todo List CRUD", path:"/interview/basic/TodoCURD"},
 {title:"Conditional Rendering", path:"/interview/basic/ConditionalRendering"},
+{title:"List Rendering", path:"/interview/basic/ListRendering"},
 ]
 
 return(
