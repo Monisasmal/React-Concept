@@ -4,8 +4,9 @@ import TodoCRUD from "../components/pages/interview/BasicComponent/TodoCURD"
 import ConditionalRendering from "../components/pages/interview/BasicComponent/ConditionalRendering"
 import ListRendering from "../components/pages/interview/BasicComponent/ListRendering"
 
-import UiQuestions from "../components/pages/interview/UIComponent/basic"
+import UiQuestions from "../components/pages/interview/UIComponent/UIbasic"
 import Accordion from "../components/pages/interview/UIComponent/Accordion"
+import Modal from "../components/pages/interview/UIComponent/Modal"
 
 const interviewRoutes = [
 
@@ -17,6 +18,7 @@ const interviewRoutes = [
 
 {path:"/interview/ui", element:<UiQuestions/>},
 {path:"/interview/ui/Accordion", element:<Accordion/>},
+{path:"/interview/ui/Modal", element:<Modal/>},
 
 ]
 

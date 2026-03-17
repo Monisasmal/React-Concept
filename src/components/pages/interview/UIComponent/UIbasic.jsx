@@ -5,6 +5,7 @@ const UiQuestions = () => {
 const questions = [
 
 {title:"Build Accordion using useState", path:"/interview/ui/Accordion"},
+{title:"Build Modal using useState", path:"/interview/ui/Modal"},
 
 ]
 
