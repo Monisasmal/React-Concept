@@ -6,9 +6,11 @@ const questions = [
 
 {title:"Build Counter using useState", path:"/interview/basic/counter"},
 {title:"Todo List CRUD", path:"/interview/basic/TodoCURD"},
-{title:"Conditional Rendering", path:"/interview/basic/ConditionalRendering"},
+{title:"Implement conditional rendering in React", path:"/interview/basic/ConditionalRendering"},
 {title:"List Rendering", path:"/interview/basic/ListRendering"},
-{title:"Form Handling", path:"/interview/basic/FormHandling"},
+{title:"Build a form handling component", path:"/interview/basic/FormHandling"},
+{title:"Create a controlled input component", path:"/interview/basic/ControllInput"},
+
 
 ]
 
