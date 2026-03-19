@@ -8,6 +8,8 @@ const questions = [
 {title:"Todo List CRUD", path:"/interview/basic/TodoCURD"},
 {title:"Conditional Rendering", path:"/interview/basic/ConditionalRendering"},
 {title:"List Rendering", path:"/interview/basic/ListRendering"},
+{title:"Form Handling", path:"/interview/basic/FormHandling"},
+
 ]
 
 return(
