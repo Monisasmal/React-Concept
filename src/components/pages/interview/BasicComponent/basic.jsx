@@ -10,6 +10,7 @@ const questions = [
 {title:"List Rendering", path:"/interview/basic/ListRendering"},
 {title:"Build a form handling component", path:"/interview/basic/FormHandling"},
 {title:"Create a controlled input component", path:"/interview/basic/ControllInput"},
+{title:"Build a search filter component ", path:"/interview/basic/SearchFilter"},
 
 
 ]

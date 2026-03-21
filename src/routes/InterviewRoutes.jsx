@@ -9,6 +9,7 @@ import Accordion from "../components/pages/interview/UIComponent/Accordion"
 import Modal from "../components/pages/interview/UIComponent/Modal"
 import FormHandling from "../components/pages/interview/BasicComponent/FormHandling"
 import ControlledInput from "../components/pages/interview/BasicComponent/ControllInput"
+import SearchFilter from "../components/pages/interview/BasicComponent/SearchFilter"
 
 const interviewRoutes = [
 
@@ -19,6 +20,8 @@ const interviewRoutes = [
 {path:"/interview/basic/ListRendering", element:<ListRendering/>},
 {path:"/interview/basic/FormHandling", element:<FormHandling/>},
 {path:"/interview/basic/ControllInput", element:<ControlledInput/>},
+{path:"/interview/basic/SearchFilter", element:<SearchFilter/>},
+
 
 {path:"/interview/ui", element:<UiQuestions/>},
 {path:"/interview/ui/Accordion", element:<Accordion/>},
