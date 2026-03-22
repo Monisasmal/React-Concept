@@ -3,13 +3,14 @@ import Counter from "../components/pages/interview/BasicComponent/Counter"
 import TodoCRUD from "../components/pages/interview/BasicComponent/TodoCURD"
 import ConditionalRendering from "../components/pages/interview/BasicComponent/ConditionalRendering"
 import ListRendering from "../components/pages/interview/BasicComponent/ListRendering"
+import FormHandling from "../components/pages/interview/BasicComponent/FormHandling"
+import ControlledInput from "../components/pages/interview/BasicComponent/ControllInput"
+import SearchFilter from "../components/pages/interview/BasicComponent/SearchFilter"
 
 import UiQuestions from "../components/pages/interview/UIComponent/UIbasic"
 import Accordion from "../components/pages/interview/UIComponent/Accordion"
 import Modal from "../components/pages/interview/UIComponent/Modal"
-import FormHandling from "../components/pages/interview/BasicComponent/FormHandling"
-import ControlledInput from "../components/pages/interview/BasicComponent/ControllInput"
-import SearchFilter from "../components/pages/interview/BasicComponent/SearchFilter"
+import MatrixGenerator from "../components/pages/interview/UIComponent/MatrixGenerator"
 
 const interviewRoutes = [
 
@@ -26,6 +27,7 @@ const interviewRoutes = [
 {path:"/interview/ui", element:<UiQuestions/>},
 {path:"/interview/ui/Accordion", element:<Accordion/>},
 {path:"/interview/ui/Modal", element:<Modal/>},
+{path:"/interview/ui/MatrixGenerator", element:<MatrixGenerator/>},
 
 ]
 

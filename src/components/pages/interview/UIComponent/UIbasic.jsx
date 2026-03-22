@@ -6,7 +6,7 @@ const questions = [
 
 {title:"Build Accordion using useState", path:"/interview/ui/Accordion"},
 {title:"Build Modal using useState", path:"/interview/ui/Modal"},
-
+{title:"Build a component that generates an <strong>M x N Matrix</strong>", path:"/interview/ui/MatrixGenerator"},
 ]
 
 return(
