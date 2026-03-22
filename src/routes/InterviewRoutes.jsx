@@ -12,6 +12,7 @@ import Accordion from "../components/pages/interview/UIComponent/Accordion"
 import Modal from "../components/pages/interview/UIComponent/Modal"
 import MatrixGenerator from "../components/pages/interview/UIComponent/MatrixGenerator"
 import Tabs from "../components/pages/interview/UIComponent/Tabs"
+import Dropdown from "../components/pages/interview/UIComponent/DropDown"
 
 
 const interviewRoutes = [
@@ -32,6 +33,7 @@ const interviewRoutes = [
 {path:"/interview/ui/Modal", element:<Modal/>},
 {path:"/interview/ui/MatrixGenerator", element:<MatrixGenerator/>},
 {path:"/interview/ui/Tabs", element:<Tabs/>},
+{path:"/interview/ui/DropDown", element:<Dropdown/>},
 
 ]
 
