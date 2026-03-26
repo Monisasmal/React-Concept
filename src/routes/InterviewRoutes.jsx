@@ -15,6 +15,12 @@ import Tabs from "../components/pages/interview/UIComponent/Tabs"
 import Dropdown from "../components/pages/interview/UIComponent/DropDown"
 
 
+// Form questions
+import FormQuestion from '../components/pages/interview/FormComponent/formBasic'
+import LoginForm from "../components/pages/interview/FormComponent/ValidLoginForm"
+import RegistrationForm from "../components/pages/interview/FormComponent/ValidRegisterForm"
+
+
 const interviewRoutes = [
 
 {path:"/interview/basic", element:<BasicQuestions/>},
@@ -34,6 +40,14 @@ const interviewRoutes = [
 {path:"/interview/ui/MatrixGenerator", element:<MatrixGenerator/>},
 {path:"/interview/ui/Tabs", element:<Tabs/>},
 {path:"/interview/ui/DropDown", element:<Dropdown/>},
+
+// Form Questions
+
+{path:"/interview/form", element:<FormQuestion/>},
+{path:"/interview/form/ValidLoginForm", element:<LoginForm/>},
+{path:"/interview/form/ValidRegisterForm", element:<RegistrationForm/>},
+
+
 
 ]
 
