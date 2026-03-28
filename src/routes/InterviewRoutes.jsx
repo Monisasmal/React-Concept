@@ -22,6 +22,7 @@ import LoginForm from "../components/pages/interview/FormComponent/ValidLoginFor
 import RegistrationForm from "../components/pages/interview/FormComponent/ValidRegisterForm"
 import DynamicForm from "../components/pages/interview/FormComponent/DynamicForm"
 import PasswordStrength from "../components/pages/interview/FormComponent/PasswordStrength"
+import FileUpload from "../components/pages/interview/FormComponent/FileUpload"
 
 
 const interviewRoutes = [
@@ -51,6 +52,7 @@ const interviewRoutes = [
 {path:"/interview/form/ValidRegisterForm", element:<RegistrationForm/>},
 {path:"/interview/form/DynamicForm", element:<DynamicForm/>},
 {path:"/interview/form/PasswordStrength", element:<PasswordStrength/>},
+{path:"/interview/form/FileUpload", element:<FileUpload/>},
 
 
 

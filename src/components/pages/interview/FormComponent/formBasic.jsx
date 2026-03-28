@@ -6,6 +6,7 @@ const UiQuestions = () => {
     {title: "Build a Register form with validation", path: "/interview/form/ValidRegisterForm"},
     {title: "Create a dynamic form generator", path: "/interview/form/DynamicForm"},
     {title: "Build a Password Strength Checker", path: "/interview/form/PasswordStrength"},
+    {title: "Build a File Upload component", path: "/interview/form/FileUpload"},
   ];
 
   return (
