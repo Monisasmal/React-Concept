@@ -2,8 +2,9 @@ import { Link } from "react-router-dom";
 
 const UiQuestions = () => {
   const questions = [
-    {title: "Build a login form with validation", path: "/interview/form/ValidLoginForm",},
-    {title: "Build a Register form with validation", path: "/interview/form/ValidRegisterForm",},
+    {title: "Build a login form with validation", path: "/interview/form/ValidLoginForm"},
+    {title: "Build a Register form with validation", path: "/interview/form/ValidRegisterForm"},
+    {title: "Create a dynamic form generator", path: "/interview/form/DynamicForm"},
   ];
 
   return (

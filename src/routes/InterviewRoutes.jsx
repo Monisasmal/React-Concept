@@ -19,6 +19,7 @@ import Dropdown from "../components/pages/interview/UIComponent/DropDown"
 import FormQuestion from '../components/pages/interview/FormComponent/formBasic'
 import LoginForm from "../components/pages/interview/FormComponent/ValidLoginForm"
 import RegistrationForm from "../components/pages/interview/FormComponent/ValidRegisterForm"
+import DynamicForm from "../components/pages/interview/FormComponent/DynamicForm"
 
 
 const interviewRoutes = [
@@ -46,6 +47,7 @@ const interviewRoutes = [
 {path:"/interview/form", element:<FormQuestion/>},
 {path:"/interview/form/ValidLoginForm", element:<LoginForm/>},
 {path:"/interview/form/ValidRegisterForm", element:<RegistrationForm/>},
+{path:"/interview/form/DynamicForm", element:<DynamicForm/>},
 
 
 
