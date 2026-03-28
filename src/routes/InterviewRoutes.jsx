@@ -7,6 +7,7 @@ import FormHandling from "../components/pages/interview/BasicComponent/FormHandl
 import ControlledInput from "../components/pages/interview/BasicComponent/ControllInput"
 import SearchFilter from "../components/pages/interview/BasicComponent/SearchFilter"
 
+// UI Question
 import UiQuestions from "../components/pages/interview/UIComponent/UIbasic"
 import Accordion from "../components/pages/interview/UIComponent/Accordion"
 import Modal from "../components/pages/interview/UIComponent/Modal"
@@ -20,6 +21,7 @@ import FormQuestion from '../components/pages/interview/FormComponent/formBasic'
 import LoginForm from "../components/pages/interview/FormComponent/ValidLoginForm"
 import RegistrationForm from "../components/pages/interview/FormComponent/ValidRegisterForm"
 import DynamicForm from "../components/pages/interview/FormComponent/DynamicForm"
+import PasswordStrength from "../components/pages/interview/FormComponent/PasswordStrength"
 
 
 const interviewRoutes = [
@@ -48,6 +50,7 @@ const interviewRoutes = [
 {path:"/interview/form/ValidLoginForm", element:<LoginForm/>},
 {path:"/interview/form/ValidRegisterForm", element:<RegistrationForm/>},
 {path:"/interview/form/DynamicForm", element:<DynamicForm/>},
+{path:"/interview/form/PasswordStrength", element:<PasswordStrength/>},
 
 
 
