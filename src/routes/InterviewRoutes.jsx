@@ -24,6 +24,10 @@ import DynamicForm from "../components/pages/interview/FormComponent/DynamicForm
 import PasswordStrength from "../components/pages/interview/FormComponent/PasswordStrength"
 import FileUpload from "../components/pages/interview/FormComponent/FileUpload"
 
+// Hook question
+import HookQuestion from "../components/pages/interview/HooksComponent/HookBasic"
+import CustomHookToggle from "../components/pages/interview/HooksComponent/CustomHookToggle"
+
 
 const interviewRoutes = [
 
@@ -55,6 +59,8 @@ const interviewRoutes = [
 {path:"/interview/form/FileUpload", element:<FileUpload/>},
 
 
+{path:"/interview/hook", element:<HookQuestion/>},
+{path:"/interview/hook/CustomHookToggle", element:<CustomHookToggle/>},
 
 ]
 

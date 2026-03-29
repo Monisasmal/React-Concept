@@ -37,6 +37,16 @@ const InterviewPrep = () => {
           </Link>
         </div>
 
+        {/* Hook Section */}
+
+        <div className="bg-white p-8 rounded-2xl shadow">
+          <h2 className="text-2xl font-bold mb-4">React Hook Components</h2>
+
+          <Link to="/interview/hook" className="text-indigo-600 font-semibold">
+            View Questions →
+          </Link>
+        </div>
+
       </div>
     </div>
   );
