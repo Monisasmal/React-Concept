@@ -4,6 +4,7 @@ const HookQuestion = () => {
   const questions = [
     {title: "Create a Custom Hook called useToggle", path: "/interview/hook/CustomHookToggle"},
     {title: "Build a useDebounce hook", path: "/interview/hook/DebounceLogic"},
+    {title: "Create a usePrevious custom hook", path: "/interview/hook/usePreviousLogic"},
   ];
 
   return (

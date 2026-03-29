@@ -28,6 +28,7 @@ import FileUpload from "../components/pages/interview/FormComponent/FileUpload"
 import HookQuestion from "../components/pages/interview/HooksComponent/HookBasic"
 import CustomHookToggle from "../components/pages/interview/HooksComponent/CustomHookToggle"
 import DebounceLogic from "../components/pages/interview/HooksComponent/DebounceLogic"
+import UsePrevious from "../components/pages/interview/HooksComponent/usePreviousLogic"
 
 
 const interviewRoutes = [
@@ -63,6 +64,7 @@ const interviewRoutes = [
 {path:"/interview/hook", element:<HookQuestion/>},
 {path:"/interview/hook/CustomHookToggle", element:<CustomHookToggle/>},
 {path:"/interview/hook/DebounceLogic", element:<DebounceLogic/>},
+{path:"/interview/hook/usePreviousLogic", element:<UsePrevious/>},
 ]
 
 export default interviewRoutes
