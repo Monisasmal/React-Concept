@@ -30,6 +30,10 @@ import CustomHookToggle from "../components/pages/interview/HooksComponent/Custo
 import DebounceLogic from "../components/pages/interview/HooksComponent/DebounceLogic"
 import UsePrevious from "../components/pages/interview/HooksComponent/usePreviousLogic"
 
+// StateManagement
+import StateManagementQuestions from "../components/pages/interview/StateManagement/basicStateManagement"
+import GlobalStateManagement from '../components/pages/interview/StateManagement/StateManagement'
+
 
 const interviewRoutes = [
 
@@ -43,7 +47,7 @@ const interviewRoutes = [
 {path:"/interview/basic/SearchFilter", element:<SearchFilter/>},
 
 
-
+// UI Questions
 {path:"/interview/ui", element:<UiQuestions/>},
 {path:"/interview/ui/Accordion", element:<Accordion/>},
 {path:"/interview/ui/Modal", element:<Modal/>},
@@ -60,11 +64,17 @@ const interviewRoutes = [
 {path:"/interview/form/PasswordStrength", element:<PasswordStrength/>},
 {path:"/interview/form/FileUpload", element:<FileUpload/>},
 
-
+// Hook Question
 {path:"/interview/hook", element:<HookQuestion/>},
 {path:"/interview/hook/CustomHookToggle", element:<CustomHookToggle/>},
 {path:"/interview/hook/DebounceLogic", element:<DebounceLogic/>},
 {path:"/interview/hook/usePreviousLogic", element:<UsePrevious/>},
+
+// State Management
+{path:"/interview/stateManagement", element:<StateManagementQuestions/>},
+{path:"/interview/stateManagement/GlobalStateManagement", element:<GlobalStateManagement/>},
+
+
 ]
 
 export default interviewRoutes

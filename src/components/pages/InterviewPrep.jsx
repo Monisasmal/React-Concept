@@ -47,6 +47,16 @@ const InterviewPrep = () => {
           </Link>
         </div>
 
+        {/* State Management Section */}
+
+        <div className="bg-white p-8 rounded-2xl shadow">
+          <h2 className="text-2xl font-bold mb-4">React State Management Components</h2>
+
+          <Link to="/interview/stateManagement" className="text-indigo-600 font-semibold">
+            View Questions →
+          </Link>
+        </div>
+
       </div>
     </div>
   );
