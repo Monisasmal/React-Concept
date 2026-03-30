@@ -33,6 +33,7 @@ import UsePrevious from "../components/pages/interview/HooksComponent/usePreviou
 // StateManagement
 import StateManagementQuestions from "../components/pages/interview/StateManagement/basicStateManagement"
 import GlobalStateManagement from '../components/pages/interview/StateManagement/StateManagement'
+import ShoppingCart from "../components/pages/interview/StateManagement/ShoppingCart"
 
 
 const interviewRoutes = [
@@ -73,6 +74,7 @@ const interviewRoutes = [
 // State Management
 {path:"/interview/stateManagement", element:<StateManagementQuestions/>},
 {path:"/interview/stateManagement/GlobalStateManagement", element:<GlobalStateManagement/>},
+{path:"/interview/stateManagement/ShoppingCart", element:<ShoppingCart/>},
 
 
 ]

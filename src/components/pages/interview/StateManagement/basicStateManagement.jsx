@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 const StateManagementQuestions = () => {
   const questions = [
     {title: "Implement Context API global state management", path: "/interview/stateManagement/globalStateManagement"},
+    {title: "Implement shopping cart using Context API", path: "/interview/stateManagement/ShoppingCart"},
     
   ];
 
