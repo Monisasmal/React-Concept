@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 const APIQuestions = () => {
   const questions = [
     {title: "Fetch data from API and display list", path: "/interview/api/FetchAPIData"},
+    {title: "Create API search functionality", path: "/interview/api/SearchFunctionality"},
     
   ];
 

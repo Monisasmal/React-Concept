@@ -38,6 +38,7 @@ import ShoppingCart from "../components/pages/interview/StateManagement/Shopping
 // API Integration
 import APIQuestions from "../components/pages/interview/APIIntegration/APIbasic"
 import ApiFetch from "../components/pages/interview/APIIntegration/FetchAPIData"
+import APISearchFilter from "../components/pages/interview/APIIntegration/SearchFunctionality"
 
 
 const interviewRoutes = [
@@ -83,7 +84,7 @@ const interviewRoutes = [
 // API Integration
 {path:"/interview/api", element:<APIQuestions/>},
 {path:"/interview/api/FetchAPIData", element:<ApiFetch/>},
-
+{path:"/interview/api/SearchFunctionality", element:<APISearchFilter/>},
 
 ]
 
