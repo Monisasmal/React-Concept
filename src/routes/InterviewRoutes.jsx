@@ -35,6 +35,10 @@ import StateManagementQuestions from "../components/pages/interview/StateManagem
 import GlobalStateManagement from '../components/pages/interview/StateManagement/StateManagement'
 import ShoppingCart from "../components/pages/interview/StateManagement/ShoppingCart"
 
+// API Integration
+import APIQuestions from "../components/pages/interview/APIIntegration/APIbasic"
+import ApiFetch from "../components/pages/interview/APIIntegration/FetchAPIData"
+
 
 const interviewRoutes = [
 
@@ -75,6 +79,10 @@ const interviewRoutes = [
 {path:"/interview/stateManagement", element:<StateManagementQuestions/>},
 {path:"/interview/stateManagement/GlobalStateManagement", element:<GlobalStateManagement/>},
 {path:"/interview/stateManagement/ShoppingCart", element:<ShoppingCart/>},
+
+// API Integration
+{path:"/interview/api", element:<APIQuestions/>},
+{path:"/interview/api/FetchAPIData", element:<ApiFetch/>},
 
 
 ]

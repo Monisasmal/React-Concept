@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const InterviewPrep = () => {
   return (
-    <div className="max-w-6xl mx-auto pt-32 pb-20 px-6">
+    <div className="max-w-6xl mx-auto pt-10 pb-20 px-6">
       <h1 className="text-4xl font-bold text-center mb-16">
         React Interview Preparation
       </h1>
@@ -53,6 +53,16 @@ const InterviewPrep = () => {
           <h2 className="text-2xl font-bold mb-4">React State Management Components</h2>
 
           <Link to="/interview/stateManagement" className="text-indigo-600 font-semibold">
+            View Questions →
+          </Link>
+        </div>
+
+        {/* API Section */}
+
+        <div className="bg-white p-8 rounded-2xl shadow">
+          <h2 className="text-2xl font-bold mb-4">API Integration Components</h2>
+
+          <Link to="/interview/api" className="text-indigo-600 font-semibold">
             View Questions →
           </Link>
         </div>
