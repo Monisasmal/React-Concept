@@ -7,6 +7,7 @@ const APIQuestions = () => {
     {title: "Build infinite scrolling list", path: "/interview/api/InfiniteScrolling"},
     {title: "Implement API pagination", path: "/interview/api/ApiPagination"},
     {title: "Implement error handling for API calls", path: "/interview/api/ApiErrorHandling"},
+    {title: "Create caching for API requests", path: "/interview/api/ApiCaching"},
   ];
 
   return (
