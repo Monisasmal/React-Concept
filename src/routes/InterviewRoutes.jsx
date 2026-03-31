@@ -39,6 +39,7 @@ import ShoppingCart from "../components/pages/interview/StateManagement/Shopping
 import APIQuestions from "../components/pages/interview/APIIntegration/APIbasic"
 import ApiFetch from "../components/pages/interview/APIIntegration/FetchAPIData"
 import APISearchFilter from "../components/pages/interview/APIIntegration/SearchFunctionality"
+import InfiniteScroll from "../components/pages/interview/APIIntegration/InfiniteScrolling"
 
 
 const interviewRoutes = [
@@ -85,7 +86,7 @@ const interviewRoutes = [
 {path:"/interview/api", element:<APIQuestions/>},
 {path:"/interview/api/FetchAPIData", element:<ApiFetch/>},
 {path:"/interview/api/SearchFunctionality", element:<APISearchFilter/>},
-
+{path:"/interview/api/InfiniteScrolling", element:<InfiniteScroll/>},
 ]
 
 export default interviewRoutes
