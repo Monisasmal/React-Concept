@@ -5,6 +5,7 @@ const APIQuestions = () => {
     {title: "Fetch data from API and display list", path: "/interview/api/FetchAPIData"},
     {title: "Create API search functionality", path: "/interview/api/SearchFunctionality"},
     {title: "Build infinite scrolling list", path: "/interview/api/InfiniteScrolling"},
+     {title: "Implement API pagination", path: "/interview/api/ApiPagination"},
   ];
 
   return (

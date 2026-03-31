@@ -40,6 +40,7 @@ import APIQuestions from "../components/pages/interview/APIIntegration/APIbasic"
 import ApiFetch from "../components/pages/interview/APIIntegration/FetchAPIData"
 import APISearchFilter from "../components/pages/interview/APIIntegration/SearchFunctionality"
 import InfiniteScroll from "../components/pages/interview/APIIntegration/InfiniteScrolling"
+import ApiPagination from "../components/pages/interview/APIIntegration/ApiPagination"
 
 
 const interviewRoutes = [
@@ -87,6 +88,7 @@ const interviewRoutes = [
 {path:"/interview/api/FetchAPIData", element:<ApiFetch/>},
 {path:"/interview/api/SearchFunctionality", element:<APISearchFilter/>},
 {path:"/interview/api/InfiniteScrolling", element:<InfiniteScroll/>},
+{path:"/interview/api/ApiPagination", element:<ApiPagination/>},
 ]
 
 export default interviewRoutes
