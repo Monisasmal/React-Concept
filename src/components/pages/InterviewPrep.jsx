@@ -67,6 +67,16 @@ const InterviewPrep = () => {
           </Link>
         </div>
 
+        {/* Performance Section */}
+
+        <div className="bg-white p-8 rounded-2xl shadow">
+          <h2 className="text-2xl font-bold mb-4">Performance Coding Components</h2>
+
+          <Link to="/interview/performance" className="text-indigo-600 font-semibold">
+            View Questions →
+          </Link>
+        </div>
+
       </div>
     </div>
   );
