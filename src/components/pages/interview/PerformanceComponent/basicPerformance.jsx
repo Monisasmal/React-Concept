@@ -4,6 +4,7 @@ const PerformanceQue = () => {
   const questions = [
     {title: "Optimize component using React.memo", path: "/interview/performance/memoOptimisation"},
     {title: "Implement useMemo for expensive calculations", path: "/interview/performance/UseMemoGuide"},
+    {title: "Implement useCallback for function memoization", path: "/interview/performance/UseCallbackGuide"},
   ];
 
   return (
