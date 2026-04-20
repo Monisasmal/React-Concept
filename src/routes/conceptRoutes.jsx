@@ -58,11 +58,17 @@ import ViteConfig from '../components/pages/concepts/viteconfigjs';
 import GitIgnore from '../components/pages/concepts/gitignore';
 import ESLintGuide from '../components/pages/concepts/eslintconfigjs';
 import NodeModules from '../components/pages/concepts/nodeModules';
+import UseEffectGuide from '../components/pages/concepts/hooks/useEffectHook';
 
 export const conceptRoutes = [
   { 
     path: "/concepts/what-is-Hooks/hooks/usestate", 
     element: <UseStateDetails />, 
+    hidden: true 
+  },
+  { 
+    path: "/concepts/what-is-Hooks/hooks/useeffect", 
+    element: <UseEffectGuide />, 
     hidden: true 
   },
   { path: "/concepts/what-is-react", element: <WhatIsReact />, title: "What is React?" },
