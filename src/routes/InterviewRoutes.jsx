@@ -48,6 +48,7 @@ import ApiCaching from "../components/pages/interview/APIIntegration/ApiCaching"
 // Performance Component
 import PerformanceQue from "../components/pages/interview/PerformanceComponent/basicPerformance"
 import MemoOptimization from "../components/pages/interview/PerformanceComponent/memoOptimisation"
+import UseMemoGuide from "../components/pages/interview/PerformanceComponent/UseMemoGuide"
 
 
 
@@ -103,6 +104,7 @@ const interviewRoutes = [
 // Performance Component
 {path:"/interview/performance", element:<PerformanceQue/>},
 {path:"/interview/performance/memoOptimisation", element:<MemoOptimization/>},
+{path:"/interview/performance/UseMemoGuide", element:<UseMemoGuide/>},
 ]
 
 export default interviewRoutes
