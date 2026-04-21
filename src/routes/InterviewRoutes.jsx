@@ -51,6 +51,7 @@ import MemoOptimization from "../components/pages/interview/PerformanceComponent
 import UseMemoGuide from "../components/pages/interview/PerformanceComponent/UseMemoGuide"
 import UseCallbackGuide from "../components/pages/interview/PerformanceComponent/UseCallbackGuide"
 import LazyLoadingGuide from "../components/pages/interview/PerformanceComponent/LazyLoading"
+import CodeSplittingGuide from "../components/pages/interview/PerformanceComponent/CodeSplitting"
 
 
 
@@ -109,6 +110,7 @@ const interviewRoutes = [
 {path:"/interview/performance/UseMemoGuide", element:<UseMemoGuide/>},
 {path:"/interview/performance/UseCallbackGuide", element:<UseCallbackGuide/>},
 {path:"/interview/performance/LazyLoading", element:<LazyLoadingGuide/>},
+{path:"/interview/performance/CodeSplitting", element:<CodeSplittingGuide/>},
 ]
 
 export default interviewRoutes

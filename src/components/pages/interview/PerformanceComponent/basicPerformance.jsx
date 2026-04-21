@@ -6,6 +6,7 @@ const PerformanceQue = () => {
     {title: "Implement useMemo for expensive calculations", path: "/interview/performance/UseMemoGuide"},
     {title: "Implement useCallback for function memoization", path: "/interview/performance/UseCallbackGuide"},
     {title: "Build lazy loaded components", path: "/interview/performance/LazyLoading"},
+    {title: "Implement code splitting using React.lazy", path: "/interview/performance/CodeSplitting"},
   ];
 
   return (
