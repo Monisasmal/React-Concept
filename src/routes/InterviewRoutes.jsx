@@ -55,6 +55,7 @@ import CodeSplittingGuide from "../components/pages/interview/PerformanceCompone
 
 
 
+
 const interviewRoutes = [
 
 {path:"/interview/basic", element:<BasicQuestions/>},
@@ -111,6 +112,7 @@ const interviewRoutes = [
 {path:"/interview/performance/UseCallbackGuide", element:<UseCallbackGuide/>},
 {path:"/interview/performance/LazyLoading", element:<LazyLoadingGuide/>},
 {path:"/interview/performance/CodeSplitting", element:<CodeSplittingGuide/>},
+
 ]
 
 export default interviewRoutes
