@@ -59,8 +59,10 @@ import GitIgnore from '../components/pages/concepts/gitignore';
 import ESLintGuide from '../components/pages/concepts/eslintconfigjs';
 import NodeModules from '../components/pages/concepts/nodeModules';
 import UseEffectGuide from '../components/pages/concepts/hooks/useEffectHook';
+import UseContextDetails from '../components/pages/concepts/hooks/useContextHook';
 
-export const conceptRoutes = [
+
+export const conceptRoutes = [ 
   { 
     path: "/concepts/what-is-Hooks/hooks/usestate", 
     element: <UseStateDetails />, 
@@ -69,6 +71,11 @@ export const conceptRoutes = [
   { 
     path: "/concepts/what-is-Hooks/hooks/useeffect", 
     element: <UseEffectGuide />, 
+    hidden: true 
+  },
+  { 
+    path: "/concepts/what-is-Hooks/hooks/useContext", 
+    element: <UseContextDetails />, 
     hidden: true 
   },
   { path: "/concepts/what-is-react", element: <WhatIsReact />, title: "What is React?" },

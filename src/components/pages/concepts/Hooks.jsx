@@ -8,7 +8,7 @@ const HookHubDashboard = () => {
     { name: 'useRef', color: 'border-amber-500', desc: 'The Secret Weapon for DOM access.' },
     { name: 'useMemo', color: 'border-rose-500', desc: 'The Speed Engine for Performance.' },
     { name: 'useContext', color: 'border-sky-500', desc: 'The Prop-Drilling Killer.' },
-  ];
+  ]; 
 
   return (
     <div className="max-w-6xl mx-auto p-6 pt-32 pb-20 bg-slate-50 min-h-screen font-sans">
