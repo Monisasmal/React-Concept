@@ -8,6 +8,7 @@ const HookHubDashboard = () => {
     { name: 'useRef', color: 'border-amber-500', desc: 'The Secret Weapon for DOM access.' },
     { name: 'useMemo', color: 'border-rose-500', desc: 'The Speed Engine for Performance.' },
     { name: 'useContext', color: 'border-sky-500', desc: 'The Prop-Drilling Killer.' },
+    { name: 'useReducer', color: 'border-sky-500', desc: 'Manage complex state logic.' },
   ]; 
 
   return (

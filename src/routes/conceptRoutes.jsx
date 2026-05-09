@@ -60,6 +60,7 @@ import ESLintGuide from '../components/pages/concepts/eslintconfigjs';
 import NodeModules from '../components/pages/concepts/nodeModules';
 import UseEffectGuide from '../components/pages/concepts/hooks/useEffectHook';
 import UseContextDetails from '../components/pages/concepts/hooks/useContextHook';
+import UseReducerDetails from '../components/pages/concepts/hooks/UseReducerProject';
 
 
 export const conceptRoutes = [ 
@@ -76,6 +77,11 @@ export const conceptRoutes = [
   { 
     path: "/concepts/what-is-Hooks/hooks/useContext", 
     element: <UseContextDetails />, 
+    hidden: true 
+  },
+  { 
+    path: "/concepts/what-is-Hooks/hooks/useReducer", 
+    element: <UseReducerDetails />, 
     hidden: true 
   },
   { path: "/concepts/what-is-react", element: <WhatIsReact />, title: "What is React?" },
@@ -122,7 +128,7 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-Composition?", element: <CompositionGuide />, title: "What is Composition?" },
   { path: "/concepts/Difference between Container Vs Presentational?", element: <ContainerPresentationalGuide />, title: "What Difference between Container Vs Presentational?" },
   { path: "/concepts/what-is-Atomic-Design?", element: <AtomicDesign />, title: "What is Automic Design?" },
-  { path: "/concepts/what-is-Streaming?", element: <Streaming />, title: "What is Streaming?" },
+  { path: "//what-is-Streaming?", element: <Streaming />, title: "What is Streaming?" },
   { path: "/concepts/what-is-Progressive-Hydration?", element: <ProgressiveHydration />, title: "What is Progressive Hydration?" },
   { path: "/concepts/what-is-Production-build?", element: <ProductionBuild />, title: "What is Production Build?" },
   { path: "/concepts/what-is-Environment Variable?", element: <EnvironmentVariable />, title: "What is Environment Variable?" },
