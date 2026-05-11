@@ -5,10 +5,9 @@ const HookHubDashboard = () => {
   const hookList = [
     { name: 'useState', color: 'border-indigo-500', desc: 'The King of State Management.' },
     { name: 'useEffect', color: 'border-emerald-500', desc: 'The Bridge to External Systems.' },
-    { name: 'useRef', color: 'border-amber-500', desc: 'The Secret Weapon for DOM access.' },
-    { name: 'useMemo', color: 'border-rose-500', desc: 'The Speed Engine for Performance.' },
     { name: 'useContext', color: 'border-sky-500', desc: 'The Prop-Drilling Killer.' },
     { name: 'useReducer', color: 'border-sky-500', desc: 'Manage complex state logic.' },
+    { name: 'useMemo', color: 'border-rose-500', desc: 'The Speed Engine for Performance.' },
   ]; 
 
   return (
