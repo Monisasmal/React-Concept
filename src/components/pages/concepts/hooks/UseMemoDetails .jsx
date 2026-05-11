@@ -216,7 +216,7 @@ const UseMemoDetails = () => {
       <div className="mt-12 flex justify-center gap-4">
 
         <a
-          href="https://react.dev/reference/react/useMemo"
+          href="https://github.com/Monisasmal/use-memo-hook-concept"
           className="text-indigo-600 font-bold hover:underline"
         >
           Official Docs ↗
@@ -225,7 +225,7 @@ const UseMemoDetails = () => {
         <span className="text-slate-300">|</span>
 
         <a
-          href="#"
+          href="https://use-memo-hook-concept.vercel.app/"
           className="text-indigo-600 font-bold hover:underline"
         >
           GitHub Link ↗
