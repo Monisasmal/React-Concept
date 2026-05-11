@@ -224,7 +224,7 @@ const UseReducerDetails = () => {
       {/* RELATED LINKS */}
       <div className="mt-12 flex justify-center gap-4">
         <a
-          href="https://react.dev/reference/react/useReducer"
+          href="https://github.com/Monisasmal/use-reducer-hook-concept"
           className="text-indigo-600 font-bold hover:underline"
         >
           Official Docs ↗
@@ -233,7 +233,7 @@ const UseReducerDetails = () => {
         <span className="text-slate-300">|</span>
 
         <a
-          href="#"
+          href="https://use-reducer-hook-concept.vercel.app/"
           className="text-indigo-600 font-bold hover:underline"
         >
           GitHub Link ↗
