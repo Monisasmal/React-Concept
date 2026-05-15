@@ -62,6 +62,7 @@ import UseEffectGuide from '../components/pages/concepts/hooks/useEffectHook';
 import UseContextDetails from '../components/pages/concepts/hooks/useContextHook';
 import UseReducerDetails from '../components/pages/concepts/hooks/UseReducerProject';
 import UseMemoDetails from '../components/pages/concepts/hooks/UseMemoDetails ';
+import UseCallbackDetails from '../components/pages/concepts/hooks/UseCallbackDetails';
 
 
 export const conceptRoutes = [ 
@@ -90,6 +91,13 @@ export const conceptRoutes = [
     element: <UseMemoDetails />, 
     hidden: true 
   },
+
+  { 
+    path: "/concepts/what-is-Hooks/hooks/useCallback", 
+    element: <UseCallbackDetails />, 
+    hidden: true 
+  },
+
   { path: "/concepts/what-is-react", element: <WhatIsReact />, title: "What is React?" },
   { path: "/concepts/react-feature", element: <ReactFeature />, title: "Whar are React Features?" },
   { path: "/concepts/what-is-Component", element: <ComponentTypes />, title: "What is Component?" },
