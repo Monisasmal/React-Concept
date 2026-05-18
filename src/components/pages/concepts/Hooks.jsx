@@ -8,7 +8,8 @@ const HookHubDashboard = () => {
     { name: 'useContext', color: 'border-sky-500', desc: 'The Prop-Drilling Killer.' },
     { name: 'useReducer', color: 'border-sky-500', desc: 'Manage complex state logic.' },
     { name: 'useMemo', color: 'border-rose-500', desc: 'The Speed Engine for Performance.' },
-    { name: 'useCallback', color: 'border-rose-500', desc: 'Hook that memoizes functions.' },
+    { name: 'useCallback', color: 'border-indigo-500', desc: 'Hook that memoizes functions.' },
+    { name: 'useRef', color: 'border-emerald-500', desc: ' creates a mutable reference object.' },
   ]; 
 
   return (

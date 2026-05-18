@@ -63,6 +63,7 @@ import UseContextDetails from '../components/pages/concepts/hooks/useContextHook
 import UseReducerDetails from '../components/pages/concepts/hooks/UseReducerProject';
 import UseMemoDetails from '../components/pages/concepts/hooks/UseMemoDetails ';
 import UseCallbackDetails from '../components/pages/concepts/hooks/UseCallbackDetails';
+import UseRefDetails from '../components/pages/concepts/hooks/UseRefDetails';
 
 
 export const conceptRoutes = [ 
@@ -95,6 +96,12 @@ export const conceptRoutes = [
   { 
     path: "/concepts/what-is-Hooks/hooks/useCallback", 
     element: <UseCallbackDetails />, 
+    hidden: true 
+  },
+
+  { 
+    path: "/concepts/what-is-Hooks/hooks/useRef", 
+    element: <UseRefDetails />, 
     hidden: true 
   },
 
