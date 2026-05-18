@@ -211,7 +211,7 @@ const UseRefDetails = () => {
       <div className="mt-12 flex justify-center gap-4">
 
         <a
-          href="https://react.dev/reference/react/useRef"
+          href="https://use-ref-hook-concept.vercel.app/"
           className="text-indigo-600 font-bold hover:underline"
         >
           Official Docs ↗
@@ -220,7 +220,7 @@ const UseRefDetails = () => {
         <span className="text-slate-300">|</span>
 
         <a
-          href="#"
+          href="https://github.com/Monisasmal/use-ref-hook-concept"
           className="text-indigo-600 font-bold hover:underline"
         >
           GitHub Link ↗
