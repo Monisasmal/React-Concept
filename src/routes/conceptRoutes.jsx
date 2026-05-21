@@ -64,6 +64,7 @@ import UseReducerDetails from '../components/pages/concepts/hooks/UseReducerProj
 import UseMemoDetails from '../components/pages/concepts/hooks/UseMemoDetails ';
 import UseCallbackDetails from '../components/pages/concepts/hooks/UseCallbackDetails';
 import UseRefDetails from '../components/pages/concepts/hooks/UseRefDetails';
+import UseLayoutEffectDetails from '../components/pages/concepts/hooks/UseLayoutEffectDetails';
 
 
 export const conceptRoutes = [ 
@@ -104,6 +105,13 @@ export const conceptRoutes = [
     element: <UseRefDetails />, 
     hidden: true 
   },
+
+  { 
+    path: "/concepts/what-is-Hooks/hooks/useLayoutEffect", 
+    element: <UseLayoutEffectDetails  />, 
+    hidden: true 
+  },
+
 
   { path: "/concepts/what-is-react", element: <WhatIsReact />, title: "What is React?" },
   { path: "/concepts/react-feature", element: <ReactFeature />, title: "Whar are React Features?" },
