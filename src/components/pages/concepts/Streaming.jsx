@@ -50,7 +50,7 @@ const ReactStreamingGuide = () => {
 
           <p className="text-lg text-slate-700 leading-relaxed">
             Streaming is a technique where the server sends HTML to the browser
-            **in chunks instead of waiting for the entire page to be ready**.
+            in chunks instead of waiting for the entire page to be ready.
             <br /><br />
             This allows users to **see and interact with parts of the page earlier**
             while the rest of the content continues loading.

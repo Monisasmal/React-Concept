@@ -82,9 +82,7 @@ consistent installations across different environments.
 <li>3. team installs same versions</li>
 <li>4. builds stay consistent</li>
 </ul>
-
 </div>
-
 </div>
 
 {/* DANGER */}

@@ -47,7 +47,7 @@ const ReactOneWayDataBindingGuide = () => {
             🧠 How does it work?
           </h3>
 
-          <ul className="text-xs space-y-2">
+          <ul className="text-sm space-y-2">
             <li>1. Parent holds state</li>
             <li>2. Parent passes data as props</li>
             <li>3. Child receives props</li>

@@ -74,7 +74,7 @@ const ReactPropDrillingGuide = () => {
             🧠 How does it work?
           </h3>
 
-          <ul className="text-xs space-y-2">
+          <ul className="text-sm space-y-2">
             <li>1. Data defined in top component</li>
             <li>2. Passed via props to child</li>
             <li>3. Child passes to its child</li>
