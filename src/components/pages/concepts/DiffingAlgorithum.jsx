@@ -68,7 +68,7 @@ const DiffingAlgorithmGuide = () => {
             🧠 How does it work?
           </h3>
 
-          <ul className="text-xs text-indigo-800 space-y-2">
+          <ul className="text-sm text-indigo-800 space-y-2">
             <li>1. Create new Virtual DOM</li>
             <li>2. Compare with previous version</li>
             <li>3. Find differences</li>

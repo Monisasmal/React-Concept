@@ -63,7 +63,7 @@ const ReactCodeSplittingGuide = () => {
             🧠 How does it work?
           </h3>
 
-          <ul className="text-xs space-y-2">
+          <ul className="text-sm space-y-2">
             <li>1. Use dynamic import()</li>
             <li>2. Use React.lazy()</li>
             <li>3. Wrap inside &lt;Suspense&gt;</li>

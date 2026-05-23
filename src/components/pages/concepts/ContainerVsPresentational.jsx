@@ -83,7 +83,7 @@ const ReactContainerPresentationalGuide = () => {
             🧠 How does it work?
           </h3>
 
-          <ul className="text-xs space-y-2">
+          <ul className="text-sm space-y-2">
             <li>1. Container holds state</li>
             <li>2. Container passes props</li>
             <li>3. Presentational renders UI</li>

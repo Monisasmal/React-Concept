@@ -69,7 +69,7 @@ const ReactAtomicDesignGuide = () => {
             🧠 How does it work?
           </h3>
 
-          <ul className="text-xs space-y-2">
+          <ul className="text-sm space-y-2">
             <li>1. Atom → Smallest UI element (Button, Input)</li>
             <li>2. Molecule → Combination of atoms</li>
             <li>3. Organism → Complex UI section</li>

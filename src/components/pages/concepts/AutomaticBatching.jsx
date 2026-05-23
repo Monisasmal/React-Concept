@@ -56,7 +56,7 @@ const ReactAutomaticBatchingGuide = () => {
             🧠 How does it work?
           </h3>
 
-          <ul className="text-xs space-y-2">
+          <ul className="text-sm space-y-2">
             <li>1. Multiple setState calls happen</li>
             <li>2. React groups them together</li>
             <li>3. Only one re-render occurs</li>
