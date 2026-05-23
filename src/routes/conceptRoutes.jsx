@@ -66,7 +66,7 @@ import UseCallbackDetails from '../components/pages/concepts/hooks/UseCallbackDe
 import UseRefDetails from '../components/pages/concepts/hooks/UseRefDetails';
 import UseLayoutEffectDetails from '../components/pages/concepts/hooks/UseLayoutEffectDetails';
 
-
+ 
 export const conceptRoutes = [ 
   { 
     path: "/concepts/what-is-Hooks/hooks/usestate", 
@@ -157,7 +157,7 @@ export const conceptRoutes = [
   { path: "/concepts/what-is-Composition?", element: <CompositionGuide />, title: "What is Composition?" },
   { path: "/concepts/Difference between Container Vs Presentational?", element: <ContainerPresentationalGuide />, title: "What Difference between Container Vs Presentational?" },
   { path: "/concepts/what-is-Atomic-Design?", element: <AtomicDesign />, title: "What is Automic Design?" },
-  { path: "//what-is-Streaming?", element: <Streaming />, title: "What is Streaming?" },
+  { path: "/what-is-Streaming?", element: <Streaming />, title: "What is Streaming?" },
   { path: "/concepts/what-is-Progressive-Hydration?", element: <ProgressiveHydration />, title: "What is Progressive Hydration?" },
   { path: "/concepts/what-is-Production-build?", element: <ProductionBuild />, title: "What is Production Build?" },
   { path: "/concepts/what-is-Environment Variable?", element: <EnvironmentVariable />, title: "What is Environment Variable?" },
