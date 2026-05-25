@@ -74,7 +74,7 @@ in the Git repository.
 🧠 How does it work?
 </h3>
 
-<ul className="text-xs space-y-2">
+<ul className="text-sm space-y-2">
 <li>1. Git reads .gitignore file</li>
 <li>2. Listed files are ignored</li>
 <li>3. Git does not track those files</li>

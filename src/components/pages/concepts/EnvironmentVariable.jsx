@@ -79,7 +79,7 @@ const ReactEnvironmentVariableGuide = () => {
             🧠 How does it work?
           </h3>
 
-          <ul className="text-xs space-y-2">
+          <ul className="text-sm space-y-2">
             <li>1. Define variables in .env file</li>
             <li>2. Load variables during build</li>
             <li>3. Access them inside the app</li>

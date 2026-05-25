@@ -79,7 +79,7 @@ const ErrorBoundaryGuide = () => {
             🧠 How does it work?
           </h3>
 
-          <ul className="text-xs space-y-2">
+          <ul className="text-sm space-y-2">
             <li>1. Wrap child components</li>
             <li>2. Detect rendering errors</li>
             <li>3. Update state with error flag</li>

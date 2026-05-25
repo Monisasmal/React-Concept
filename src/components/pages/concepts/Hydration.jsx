@@ -48,7 +48,7 @@ const ReactHydrationGuide = () => {
             🧠 How does it work?
           </h3>
 
-          <ul className="text-xs space-y-2">
+          <ul className="text-sm space-y-2">
             <li>1. Server sends HTML to browser</li>
             <li>2. Browser displays static content</li>
             <li>3. React JS loads in background</li>
