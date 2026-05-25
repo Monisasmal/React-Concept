@@ -47,7 +47,7 @@ const ReactFragmentGuide = () => {
             🧠 How does it work?
           </h3>
 
-          <ul className="text-xs space-y-2">
+          <ul className="text-sm space-y-2">
             <li>1. Use &lt;React.Fragment&gt;</li>
             <li>2. Or shorthand syntax &lt;&gt; &lt;/&gt;</li>
             <li>3. Wrap multiple elements</li>

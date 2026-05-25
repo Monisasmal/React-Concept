@@ -65,7 +65,7 @@ const ReactPortalGuide = () => {
             🧠 How does it work?
           </h3>
 
-          <ul className="text-xs text-indigo-800 space-y-2">
+          <ul className="text-sm text-indigo-800 space-y-2">
             <li>1. ReactDOM.createPortal()</li>
             <li>2. Takes JSX + target DOM node</li>
             <li>3. Renders outside parent container</li>
