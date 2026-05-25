@@ -56,6 +56,12 @@ const Projects = () => {
       liveLink: "https://study-planner-react.vercel.app/",
       githubLink: "https://github.com/Monisasmal/StudyPlannerReact",
     },
+    {
+      title: "Random Color Generator",
+      description: "A simple React app that generates a new random color every time the user clicks a button, instantly updating the background and showing the hex code.",
+      liveLink: "https://random-color-generator-react-manaswini-sasmals-projects.vercel.app/",
+      githubLink: "https://github.com/Monisasmal/Random-Color-Generator-React",
+    },
   ];
 
   return (
