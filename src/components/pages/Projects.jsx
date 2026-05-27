@@ -64,9 +64,9 @@ const Projects = () => {
     },
     {
       title: "Employee Management Dashboard",
-      description: "A simple React app that generates a new random color every time the user clicks a button, instantly updating the background and showing the hex code.",
-      liveLink: "https://random-color-generator-react-manaswini-sasmals-projects.vercel.app/",
-      githubLink: "https://github.com/Monisasmal/Random-Color-Generator-React",
+      description: "This is a React.js Employee Management Dashboard that allows authenticated users to manage employee records efficiently. The application supports adding, editing, deleting, filtering, and printing employee details, with data persistence using LocalStorage.",
+      liveLink: "https://employee-management-orpin-three.vercel.app/",
+      githubLink: "https://github.com/Monisasmal/Employee-Management",
     },
   ];
 
