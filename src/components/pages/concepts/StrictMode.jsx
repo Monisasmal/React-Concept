@@ -51,7 +51,7 @@ const StrictModeGuide = () => {
             🧠 How does it work?
           </h3>
 
-          <ul className="text-xs text-indigo-800 space-y-2">
+          <ul className="text-sm text-indigo-800 space-y-2">
             <li>1. React intentionally double-invokes some functions</li>
             <li>2. Detects unexpected side effects</li>
             <li>3. Logs warnings in console</li>

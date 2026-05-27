@@ -46,7 +46,7 @@ const TreeShakingGuide = () => {
             🧠 How does it work?
           </h3>
 
-          <ul className="text-xs space-y-2">
+          <ul className="text-sm space-y-2">
             <li>1. Uses ES6 module syntax (import/export)</li>
             <li>2. Detects unused exports</li>
             <li>3. Removes unused code</li>
