@@ -71,8 +71,8 @@ const Projects = () => {
     {
       title: "QR Code Generator",
       description: "This is a QR Code Generator built in React. I used react-qr-code to generate QR codes dynamically and html-to-image with downloadjs to allow users to download the QR code as an image, all handled on the client side.",
-      liveLink: "https://employee-management-orpin-three.vercel.app/",
-      githubLink: "https://github.com/Monisasmal/Employee-Management",
+      liveLink: "https://qr-code-generator-react-manaswini-sasmals-projects.vercel.app/",
+      githubLink: "https://github.com/Monisasmal/QRCode-Generator-React",
     },
   ];
 
