@@ -68,6 +68,12 @@ const Projects = () => {
       liveLink: "https://employee-management-orpin-three.vercel.app/",
       githubLink: "https://github.com/Monisasmal/Employee-Management",
     },
+    {
+      title: "Employee Management Dashboard",
+      description: "This is a React.js Employee Management Dashboard that allows authenticated users to manage employee records efficiently. The application supports adding, editing, deleting, filtering, and printing employee details, with data persistence using LocalStorage.",
+      liveLink: "https://employee-management-orpin-three.vercel.app/",
+      githubLink: "https://github.com/Monisasmal/Employee-Management",
+    },
   ];
 
   return (
