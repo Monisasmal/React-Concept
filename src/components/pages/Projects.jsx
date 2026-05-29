@@ -69,8 +69,8 @@ const Projects = () => {
       githubLink: "https://github.com/Monisasmal/Employee-Management",
     },
     {
-      title: "Employee Management Dashboard",
-      description: "This is a React.js Employee Management Dashboard that allows authenticated users to manage employee records efficiently. The application supports adding, editing, deleting, filtering, and printing employee details, with data persistence using LocalStorage.",
+      title: "QR Code Generator",
+      description: "This is a QR Code Generator built in React. I used react-qr-code to generate QR codes dynamically and html-to-image with downloadjs to allow users to download the QR code as an image, all handled on the client side.",
       liveLink: "https://employee-management-orpin-three.vercel.app/",
       githubLink: "https://github.com/Monisasmal/Employee-Management",
     },
