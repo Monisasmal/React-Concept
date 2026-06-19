@@ -20,7 +20,45 @@ Learn React by understanding concepts through working examples.
 
 ---
 
-
+## ✨ Features
+### Core React Concepts
+- Component Architecture
+- JSX Fundamentals
+- Props
+- State Management
+- Conditional Rendering
+- Event Handling
+- Lists and Keys
+- Forms Handling
+### React Hooks
+- useState
+- useEffect
+- useContext
+- useReducer
+- useMemo
+- useCallback
+- useRef
+- Custom Hooks
+### Performance Optimizations
+- React.memo
+- useMemo
+- useCallback
+- Lazy Loading
+- Code Splitting
+### Advanced Concepts
+- Context API
+- Prop Drilling Solutions
+- Higher Order Components
+- Render Props
+- Compound Components
+- Reusable Components
+- Error Boundaries
+### Developer Experience
+- Clean UI
+- Responsive Design
+- Organized Folder Structure
+- Reusable Utilities
+- Scalable Architecture
 
 
 
