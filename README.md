@@ -90,7 +90,7 @@ By exploring this project, developers will learn:
 
 
 
-## 🙋‍♀️ Author- Manaswini Sasmal
+## 🙋‍♀️ Author - Manaswini Sasmal
 
 📲 - 6370094643
 
